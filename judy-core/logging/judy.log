@@ -1,0 +1,20 @@
+2019-05-23 10:24:43,743  WARN   All initial tests failed! Nothing to mutate. 
+2019-05-23 10:24:44,267  INFO   Adding HOM objective: MinTCsSSHOM 
+2019-05-23 10:24:44,269  INFO   Adding HOM objective: MinTCsNew 
+2019-05-23 10:24:44,271  INFO   Adding HOM objective: MinTCsOld 
+2019-05-23 10:24:44,272  INFO   Adding HOM objective: fitness 
+2019-05-23 10:24:44,272  INFO   Adding HOM objective: mutationOrder 
+2019-05-23 10:24:44,274  INFO   Adding HOM objective: MinTCsSSHOM 
+2019-05-23 10:24:44,274  INFO   Adding HOM objective: MinTCsNew 
+2019-05-23 10:24:44,274  INFO   Adding HOM objective: MinTCsOld 
+2019-05-23 10:24:44,274  INFO   Adding HOM objective: fitness 
+2019-05-23 10:24:44,274  INFO   Adding HOM objective: mutationOrder 
+2019-05-23 10:24:44,276  INFO   Adding HOM objective: fitness 
+2019-05-23 10:24:44,276  INFO   Adding HOM objective: fitness 
+2019-05-23 10:24:44,276  INFO   Adding HOM objective: fitness 
+2019-05-23 10:24:44,276  INFO   Adding HOM objective: mutationOrder 
+2019-05-23 10:24:44,277  INFO   Adding HOM objective: MinTCsSSHOM 
+2019-05-23 10:24:44,277  INFO   Adding HOM objective: MinTCsNew 
+2019-05-23 10:24:44,277  INFO   Adding HOM objective: MinTCsOld 
+2019-05-23 10:24:44,277  INFO   Adding HOM objective: fitness 
+2019-05-23 10:24:44,277  INFO   Adding HOM objective: mutationOrder 

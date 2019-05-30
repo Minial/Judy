@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="judy-cli" />
+        <module name="judy-core" />
+        <module name="judy-worker" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="judy" target="1.5" />
+      <module name="judy-cli" target="1.8" />
+      <module name="judy-core" target="1.8" />
+      <module name="judy-worker" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

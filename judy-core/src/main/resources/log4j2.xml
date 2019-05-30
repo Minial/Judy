@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<RandomAccessFile name="judyFileAppender" fileName="logging/judy.log" append="false">
+			<PatternLayout pattern="%d  %-5p  %m %n"/>
+		</RandomAccessFile>
+		<RollingRandomAccessFile name="allFileAppender" fileName="logging/allTheWorld.log"
+								 filePattern="logging/allTheWorld_%i.log" append="false">
+			<PatternLayout pattern="%d  %-5p  [%c{1}] %m %n"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="25 MB"/>
+			</Policies>
+		</RollingRandomAccessFile>
+		<RollingRandomAccessFile name="researchFileAppender" fileName="logging/research.log"
+								 filePattern="logging/research_%i.log" append="false">
+			<PatternLayout pattern="%m %n"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="25 MB"/>
+			</Policies>
+		</RollingRandomAccessFile>
+		<RollingRandomAccessFile name="homResearchFileAppender" fileName="logging/research_HOM.log"
+								 filePattern="logging/research_HOM_%i.log" append="false">
+			<PatternLayout pattern="%m %n"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="25 MB"/>
+			</Policies>
+		</RollingRandomAccessFile>
+		<Console name="default" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="pl.wroc.pwr.judy.research.fragility" level="debug" additivity="false">
+			<appender-ref ref="researchFileAppender" level="debug"/>
+		</Logger>
+		<Logger name="pl.wroc.pwr.judy.hom.research" level="debug" additivity="false">
+			<appender-ref ref="homResearchFileAppender" level="debug"/>
+		</Logger>
+		<Logger name="pl.wroc.pwr" level="debug" additivity="false">
+			<appender-ref ref="judyFileAppender" level="info"/>
+			<appender-ref ref="allFileAppender" level="off"/>
+		</Logger>
+		<Root level="debug">
+			<AppenderRef ref="default" level="off"/>
+		</Root>
+	</Loggers>
+</Configuration>

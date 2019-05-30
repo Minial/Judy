@@ -1,0 +1,37 @@
+2018-09-23 14:01:03,866  INFO   Judy, Sun Sep 23 14:01:03 PET 2018 
+2018-09-23 14:01:03,868  INFO   Parsing input... 
+2018-09-23 14:01:03,912  INFO   No judy.operators property found, will add all... 
+2018-09-23 14:01:03,932  INFO   Parsing input... Done 
+2018-09-23 14:01:03,932  INFO   Initial analysis... 
+2018-09-23 14:01:04,667  INFO   Initial analysis... Done 
+2018-09-23 14:01:04,691  INFO   Computing mutation result... 
+2018-09-23 14:01:04,692  INFO   Progress  ClassKind  Class                                      Killed     All  Test classes  Test methods  Tests duration [ms] 
+2018-09-23 14:01:04,998  INFO   [ 50.0%]  N          com.cedarsoftware.util.MathUtilities            5      40             1            10                   48 
+2018-09-23 14:01:05,029  INFO   [ 50.0%]  T          com.cedarsoftware.util.ReflectionUtils          0       0             0             0                    0 
+2018-09-23 14:01:05,052  INFO   [ 50.0%]  T          com.cedarsoftware.util.DeepEquals               0       0             0             0                    0 
+2018-09-23 14:01:05,074  INFO   [ 50.0%]  T          com.cedarsoftware.util.ExceptionUtilities       0       0             0             0                    0 
+2018-09-23 14:01:05,098  INFO   [ 50.0%]  T          com.cedarsoftware.util.Main                     0       0             0             0                    0 
+2018-09-23 14:01:18,421  INFO   [100.0%]  N          com.cedarsoftware.util.StringUtilities        217     223             1           559                 5388 
+2018-09-23 14:01:18,422  INFO   Computing mutation result... Done 
+2018-09-23 14:01:18,422  INFO   Shutting down executor... 
+2018-09-23 14:01:18,422  INFO   Shutting down executor... Done (true) 
+2018-09-23 14:01:18,429  INFO    
+2018-09-23 14:01:18,429  INFO   Classes                      : 6 
+2018-09-23 14:01:18,429  INFO   Score                    [%] : 84.41 
+2018-09-23 14:01:18,429  INFO     all mutants                : 263 
+2018-09-23 14:01:18,429  INFO     killed mutants             : 222 
+2018-09-23 14:01:18,429  INFO       by timeout               : 0 
+2018-09-23 14:01:18,429  INFO       by infinite loop guard   : 0 
+2018-09-23 14:01:18,429  INFO   Duration                 [s] : 14 
+2018-09-23 14:01:18,429  INFO     initial tests duration [s] : 0 
+2018-09-23 14:01:18,429  INFO     mutation duration      [s] : 13 
+2018-09-23 14:01:18,429  INFO    
+2018-09-23 14:01:18,429  INFO   Analysis duration (parallel) 
+2018-09-23 14:01:18,429  INFO     generation duration       [s] : 0 
+2018-09-23 14:01:18,429  INFO     test duration             [s] : 5 
+2018-09-23 14:01:18,429  INFO   Test classes used 
+2018-09-23 14:01:18,430  INFO     initial tests runs         : 1 
+2018-09-23 14:01:18,430  INFO     tests runs                 : 1 
+2018-09-23 14:01:18,430  INFO    
+2018-09-23 14:01:18,430  INFO   Saving result...  
+2018-09-23 14:01:18,487  INFO   Saving result... Done  

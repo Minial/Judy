@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="pl.wroc.pwr.judy.cli.Judy" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/Judy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="356" x="1212" y="11"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="pl.wroc.pwr.judy.cli.result.BaseResultFormatter" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/BaseResultFormatter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="405" x="552" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="3" language="java" name="pl.wroc.pwr.judy.cli" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="131" x="731" y="11"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="pl.wroc.pwr.judy.cli.argsparser" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/argsparser" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="198" x="881" y="1279"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="pl.wroc.pwr.judy.cli.result.XmlMutationResultWriter" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/XmlMutationResultWriter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="531" width="401" x="997" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="pl.wroc.pwr.judy.cli.argsparser.PropertiesTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/argsparser/PropertiesTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="135" x="1684" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="pl.wroc.pwr.judy.cli.result.AbstractMutationResultFormatter" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/AbstractMutationResultFormatter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="218" x="361" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="8" language="java" name="pl.wroc.pwr.judy.cli.result" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="167" x="345" y="3110"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="9" language="java" name="pl.wroc.pwr.judy.cli.result.MutationSummaryFormatter" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/MutationSummaryFormatter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="270" x="309" y="294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="pl.wroc.pwr.judy.cli.result.MutationSummaryFormatterTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/result/MutationSummaryFormatterTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="253" x="309" y="11"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="pl.wroc.pwr.judy.cli.argsparser.JudyArgsParser" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/argsparser/JudyArgsParser.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="1791" width="340" x="1119" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="pl.wroc.pwr.judy.cli.result.XmlMutationResultWriter.Statistics" 
+    project="judy-cli" file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/XmlMutationResultWriter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="231" x="766" y="3681"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="pl.wroc.pwr.judy.cli.ConfigException" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/ConfigException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="164" x="1480" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="pl.wroc.pwr.judy.cli.argsparser.JudyConfig" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/argsparser/JudyConfig.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="945" width="308" x="1172" y="294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="pl.wroc.pwr.judy.cli.argsparser.DirectoryTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/argsparser/DirectoryTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="1917" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="pl.wroc.pwr.judy.cli.argsparser.OptionParserCreator" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/argsparser/OptionParserCreator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="198" x="2188" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="pl.wroc.pwr.judy.cli.result.XmlMutationResultWriter.OperatorStatistic" 
+    project="judy-cli" file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/XmlMutationResultWriter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="154" x="1018" y="4090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="18" language="java" name="src/main/resources" project="judy-cli" file="/judy-cli/src/main/resources" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="460" y="-236"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <class id="19" language="java" name="pl.wroc.pwr.judy.cli.result.BaseResultFormatterTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/result/BaseResultFormatterTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="201" x="640" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="pl.wroc.pwr.judy.cli.AbstractExec" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/AbstractExec.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="196" x="1589" y="-236"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="pl.wroc.pwr.judy.cli.progress.WorkProgressObserver" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/progress/WorkProgressObserver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="239" x="261" y="3681"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="pl.wroc.pwr.judy.cli.progress.WorkProgressObserverTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/progress/WorkProgressObserverTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="185" x="99" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="23" language="java" name="src/test/java" project="judy-cli" file="/judy-cli/src/test/java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="1024" y="-236"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <interface id="24" language="java" name="pl.wroc.pwr.judy.cli.result.IMutationSummaryFormatter" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/result/IMutationSummaryFormatter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="270" x="51" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="25" language="java" name="pl.wroc.pwr.judy.cli.progress" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/progress" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="186" x="540" y="3681"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="26" language="java" name="pl.wroc.pwr.judy.cli.argsparser.Properties" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/argsparser/Properties.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="172" x="1684" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="pl.wroc.pwr.judy.cli.argsparser.OptionParserCreatorTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/argsparser/OptionParserCreatorTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="603" width="254" x="2139" y="1279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="pl.wroc.pwr.judy.cli.argsparser.Directory" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/argsparser/Directory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="231" x="1917" y="3110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="pl.wroc.pwr.judy.cli.HelpException" project="judy-cli" 
+    file="/judy-cli/src/main/java/pl/wroc/pwr/judy/cli/HelpException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="143" x="1440" y="3681"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="pl.wroc.pwr.judy.cli.result.MutationResultFormatterTest" project="judy-cli" 
+    file="/judy-cli/src/test/java/pl/wroc/pwr/judy/cli/result/MutationResultFormatterTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="193" x="640" y="294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="31">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <nesting id="39">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="41">    
+    <bendpoint x="1428" y="3110"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <dependency id="45">    
+    <bendpoint x="609" y="294"/>    
+    <bendpoint x="609" y="1279"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="46">    
+    <bendpoint x="1510" y="294"/>    
+    <bendpoint x="1510" y="1279"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="48">    
+    <bendpoint x="1598" y="11"/>    
+    <bendpoint x="1598" y="294"/>    
+    <bendpoint x="1598" y="1279"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="49">    
+    <bendpoint x="1886" y="11"/>    
+    <bendpoint x="1886" y="294"/>    
+    <bendpoint x="1886" y="1279"/>    
+    <bendpoint x="1886" y="3110"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="53">    
+    <bendpoint x="1489" y="1279"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <dependency id="59">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <nesting id="61">    
+    <bendpoint x="1027" y="3681"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="62">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="63" name="statistics"/>      
+      <multiplicity id="64" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="65">    
+    <bendpoint x="863" y="294"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="66">    
+    <bendpoint x="1449" y="3110"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="67">    
+    <bendpoint x="314" y="3110"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="68">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="69" name="properties"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="72">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="73" name="printer"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="76">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="77" name="properties"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

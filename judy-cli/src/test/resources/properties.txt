@@ -1,0 +1,17 @@
+ignored
+prop1=A;
+B;
+# ignored
+CD
+
+
+
+prop2=A B C 
+D
+prop3=A;B;C;
+D;E;F
+;G  
+
+
+
+prop4=

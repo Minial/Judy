@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsl:stylesheet version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+	<xsl:output method="html" omit-xml-declaration="yes" indent="no" />
+
+	<!-- ROOT -->
+	<xsl:template match="/result">
+		<html>
+			<head>
+				<script type="text/javascript" src="result-xslt/folding.js"></script>
+				<script type="text/javascript" src="result-xslt/sh_main.js"></script>
+				<script type="text/javascript" src="result-xslt/sh_java.js"></script>
+				<script type="text/javascript" src="result-xslt/sh_cpp.js"></script>
+
+				<link rel="stylesheet" type="text/css" href="result-xslt/style.css" />
+				<link rel="stylesheet" type="text/css" href="result-xslt/sh_style.css" />
+
+				<title>
+					Mutation analysis result:
+					<xsl:value-of select="summary/date" />
+					<xsl:text>, </xsl:text>
+					<xsl:value-of select="summary/time" />
+				</title>
+			</head>
+
+			<body>
+				<!-- title -->
+				<h1 id="title">
+					<span class="left">
+						<em>Mutation analysis result: </em>
+						<xsl:value-of select="summary/date" />
+						<xsl:text>, </xsl:text>
+						<xsl:value-of select="summary/time" />
+					</span>
+					<span class="right">
+					</span>
+					<div class="clearfix" />
+				</h1>
+
+				<!-- content -->
+				<div class="content">
+					<!-- summary -->
+					<xsl:apply-templates select="summary" />
+
+					<!-- operators -->
+					<xsl:if test="count(operators/operator)&gt;0">
+						<xsl:apply-templates select="operators" />
+					</xsl:if>
+
+					<!-- tests -->
+					<xsl:if test="count(tests/test)&gt;0">
+						<xsl:apply-templates select="tests" />
+					</xsl:if>
+
+					<!-- classes -->
+					<xsl:if test="count(classes/class)&gt;0">
+						<xsl:apply-templates select="classes" />
+					</xsl:if>
+
+				</div>
+
+				<!-- footer -->
+				<h1 id="footer">
+					<span class="left">
+					</span>
+					<span class="right">
+						<em>Judy:</em> Tests Review
+					</span>
+					<div class="clearfix" />
+				</h1>
+
+			</body>
+		</html>
+	</xsl:template>
+
+	<!-- SUMMARY -->
+	<xsl:template match="summary">
+		<div class="main" state="expanded">
+			<a class="exp" onclick="toggle(this);">Summary</a>
+			<div class="expanded">
+				<p class="info">
+					<xsl:text>Date:&#x09;</xsl:text><em><xsl:value-of select="date" />, <xsl:value-of select="time" /></em>
+				</p>
+				<p class="info">
+					<xsl:text>Duration:&#x09;</xsl:text><em><xsl:value-of select="duration" /> s</em>
+					<xsl:if test="evaluatedClassesCount">
+						<xsl:text>, overall tests duration: </xsl:text><em><xsl:value-of select="testsDuration" /> s</em>
+					</xsl:if>
+				</p>
+				<p class="info">
+					<xsl:text>Mutation operators count:&#x09;</xsl:text><em><xsl:value-of select="count(/result/operators/operator)" /></em>
+				</p>
+				<p class="info">
+					<xsl:text>Tests count:&#x09;</xsl:text><em><xsl:value-of select="testsCount" /></em>
+					<xsl:if test="evaluatedClassesCount">
+						<xsl:text>, tests runs: </xsl:text><em><xsl:value-of select="testsRuns" /></em>
+					</xsl:if>
+				</p>
+				<xsl:if test="evaluatedClassesCount">
+					<p class="info">
+						<xsl:text>Evaluated classes count:&#x09;</xsl:text><em><xsl:value-of select="evaluatedClassesCount" /></em>
+						<xsl:text>, mutated classes count: </xsl:text><em><xsl:value-of select="mutatedClassesCount" /></em>
+					</p>				
+					<p class="info">
+						<xsl:text>Mutation score:&#x09;</xsl:text><em><strong><xsl:value-of select="score" /></strong></em>
+						<xsl:text> (</xsl:text>
+						<xsl:value-of select="allKilledMutantsCount" />
+						<xsl:text>/</xsl:text>
+						<xsl:value-of select="allMutantsCount" />
+						<xsl:text>) </xsl:text>
+					</p>
+				</xsl:if>		
+			
+				<xsl:apply-templates select="operators/operator" />
+			</div>
+		</div>	
+	</xsl:template>
+	
+	<!-- OPERATORS -->
+	<xsl:template match="operators">
+		<div class="main" state="collapsed">
+			<a id="operators" class="col" onclick="toggle(this);">Mutation operators</a>
+			<div class="collapsed">
+				<xsl:apply-templates select="operator">
+					<xsl:sort select="mutantsCount" order="descending" data-type="number" />
+				</xsl:apply-templates>			
+			</div>
+		</div>	
+	</xsl:template>	
+	
+	<!-- OPERATOR -->
+	<xsl:template match="operator">
+		<p class="info">
+			<a class="regular" id="{name}"></a>
+			<xsl:text>Operator </xsl:text>
+			<em><xsl:value-of select="name" /></em>
+			<xsl:if test="description != ''">
+				<xsl:text>, </xsl:text>
+				<em><xsl:value-of select="description" /></em>
+			</xsl:if>
+			<xsl:if test="mutantsCount">
+				<xsl:text>, killed mutants: </xsl:text>
+				<xsl:value-of select="killedMutantsCount" />
+				<xsl:text>/</xsl:text>
+				<xsl:value-of select="mutantsCount" />
+			</xsl:if>
+		</p>	
+	</xsl:template>
+	
+	<!-- TESTS -->
+	<xsl:template match="tests">
+		<div class="main" state="collapsed">
+			<a class="col" onclick="toggle(this);">Tests</a>
+			<div class="collapsed">
+				<xsl:apply-templates select="test">
+					<xsl:sort select="duration" order="descending" data-type="number" />
+				</xsl:apply-templates>			
+			</div>
+		</div>	
+	</xsl:template>
+	
+	<!-- TEST -->
+	<xsl:template match="test">
+		<xsl:choose>
+  			<xsl:when test="result='passed'">
+  				<p class="test-passed">
+  					<xsl:value-of select="position()" />
+					<xsl:text>. Test </xsl:text>
+					<em><xsl:value-of select="name" /></em>
+					<xsl:text> (</xsl:text>
+					<xsl:value-of select="duration" />
+					<xsl:text> ms)</xsl:text>				</p>
+  			</xsl:when>
+  			<xsl:otherwise>
+  				<p class="test-failed">
+  					<xsl:value-of select="position()" />
+					<xsl:text>. Test </xsl:text>
+					<em><xsl:value-of select="name" /></em>
+					<xsl:text> (</xsl:text>
+					<xsl:value-of select="duration" />
+					<xsl:text> ms)</xsl:text>
+				</p>
+  			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	<!-- CLASSES -->
+	<xsl:template match="classes">
+		<div class="main" state="expanded">
+			<a class="exp" onclick="toggle(this);">Evaluated classes</a>
+			<div class="expanded">
+				<xsl:apply-templates select="class" >			
+					<xsl:sort select="score" order="descending"/>
+					<xsl:sort select="mutantsCount" order="descending" data-type="number" />
+					<xsl:sort select="type"/>
+					<xsl:sort select="name"/>
+				</xsl:apply-templates>
+			</div>
+		</div>	
+	</xsl:template>
+	
+	<!-- CLASS -->
+	<xsl:template match="class">
+  		<p class="info">
+  			<xsl:value-of select="position()" />
+			<xsl:text>. Class </xsl:text>
+			<em><xsl:value-of select="name" /></em>
+			
+			<xsl:if test="score">
+				<xsl:text>, score: </xsl:text>
+				<em><strong><xsl:value-of select="score" /></strong></em>			
+				<xsl:text> (</xsl:text>
+				<xsl:value-of select="mutantsKilledCount" />
+				<xsl:text>/</xsl:text>
+				<xsl:value-of select="mutantsCount" />
+				<xsl:text>) </xsl:text>
+			</xsl:if>
+		</p>
+		
+		<xsl:if test="mutantsKilledCount != '0'">
+  			<xsl:if test="killedMutants">
+				<xsl:apply-templates select="killedMutants" />
+			</xsl:if>
+		</xsl:if>
+		
+		<xsl:if test="notKilledMutants">
+			<xsl:apply-templates select="notKilledMutants" />	
+		</xsl:if>
+		
+		<xsl:if test="mutantsCount = mutantsKilledCount">
+			<div class="mutant">
+				<xsl:if test="mutantsCount != '0'">
+					<p class="all-killed">All mutants killed</p>
+				</xsl:if>
+				
+				<xsl:if test="mutantsCount = '0'">
+					<p class="no-mutants">No mutants</p>
+				</xsl:if>
+			</div>
+		</xsl:if>
+
+		<xsl:if test="not(score)">
+			<div class="mutant">			
+				<p class="no-mutants">
+					<xsl:if test="type">
+						<xsl:text></xsl:text>
+						<xsl:value-of select="type" />			
+						<xsl:text>, </xsl:text>
+					</xsl:if>
+					<xsl:text>not mutated</xsl:text>
+				</p>
+			</div>
+		</xsl:if>
+		
+	</xsl:template>
+
+	<!-- KILLED MUTANTS -->
+	<xsl:template match="killedMutants">
+		<div class="mutant" state="collapsed">
+			<a class="col" onclick="toggle(this);">
+				<xsl:value-of select="count(mutant)" />
+				<xsl:text> killed mutant</xsl:text>
+				<xsl:if test="count(mutant)&gt;1">
+					<xsl:text>s</xsl:text>
+				</xsl:if>
+			</a>
+			<div class="collapsed">
+				<xsl:apply-templates select="mutant" />	
+			</div>
+		</div>	
+	</xsl:template>
+	
+	<!-- NOT KILLED MUTANTS -->
+	<xsl:template match="notKilledMutants">
+		<div class="mutant" state="collapsed">
+			<a class="col" onclick="toggle(this);">
+				<xsl:value-of select="count(mutant)" />
+				<xsl:text> not killed mutant</xsl:text>
+				<xsl:if test="count(mutant)&gt;1">
+					<xsl:text>s</xsl:text>
+				</xsl:if>
+			</a>
+			<div class="collapsed">
+				<xsl:apply-templates select="mutant" />	
+			</div>
+		</div>	
+	</xsl:template>
+	
+	<!-- MUTANT -->
+	<xsl:template match="mutant">
+  		<p class="info">
+  			<xsl:value-of select="position()" />
+  			<xsl:text>. Mutant </xsl:text>
+  			<em><a class="regular" href="#{operator}" onclick="checkOpen(getElementById('operators'));"><xsl:value-of select="normalize-space(operators)" /></a></em>
+			
+			<xsl:text>, mutation points: </xsl:text>
+			<em><xsl:value-of select="normalize-space(points)" /></em>
+			
+			<xsl:text>, indexes: </xsl:text>
+			<em><xsl:value-of select="normalize-space(indexes)" /></em>
+			
+			<xsl:text>, lines: </xsl:text>
+			<em><xsl:value-of select="normalize-space(lines)" /></em>
+
+		</p>
+		<xsl:if test="source">
+			<xsl:apply-templates select="source" />	
+		</xsl:if>
+		<xsl:if test="exceptions">
+			<xsl:apply-templates select="exceptions" />	
+		</xsl:if>
+		<!-- TODO: statistics -->
+	</xsl:template>
+
+	<!-- SOURCE -->
+	<xsl:template match="source">
+		<div class="sourceCode">
+			<p>
+				<xsl:text>Source code: </xsl:text>
+				<xsl:if test="../line"> 
+					<a style="color: blue;" onclick="toggle_source(this);">show</a><xsl:text>, </xsl:text>
+				</xsl:if>
+				<a href="{path}">file</a>
+				<xsl:if test="../details">
+					<xsl:text>, details: </xsl:text><em><xsl:value-of select="../details" /></em>
+				</xsl:if>
+			</p>
+			<xsl:if test="../line"> 
+				<pre style="display:none;" class="sh_java">
+					<xsl:apply-templates select="ln" />	 
+				</pre>
+			</xsl:if>
+		</div>
+	</xsl:template>
+
+	<!-- LN -->
+	<xsl:template match="ln">
+		<xsl:if test="@nr = ../../line">
+			<span class="selected"><xsl:value-of select="@nr"/>. <xsl:value-of select="." /><br/></span>
+		</xsl:if>
+		<xsl:if test="@nr != ../../line">
+			<xsl:value-of select="@nr"/>. <xsl:value-of select="." /><br/>
+		</xsl:if>				
+	</xsl:template>
+	
+	<!-- EXCEPTIONS -->
+	<xsl:template match="exceptions">
+		<p class="exceptions">
+			Exceptions:
+			<xsl:apply-templates select="exception" />	
+		</p>
+	</xsl:template>
+
+	<!-- EXCEPTION -->
+	<xsl:template match="exception">
+		<br/><em><xsl:value-of select="." /></em>
+	</xsl:template>
+	
+</xsl:stylesheet>

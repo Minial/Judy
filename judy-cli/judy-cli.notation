@@ -1,0 +1,2289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_ytjgEGf1Eemr1-Li7NDCzw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_-HnIkGf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-H_jEGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IAKIGf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IAKIWf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IAKImf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OThncGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9lXXIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OThncWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IAKI2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IAKJGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IAKJWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IAKJmf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IAKJ2f1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTkDsGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9ltVYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTkDsWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTkqwGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9mNrsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTkqwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IAKKGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IAKKWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IAKKmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IAKK2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IAKLGf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTlR0Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9mCskGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTlR0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTlR0mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9mWOkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTlR02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IAKLWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IAKLmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IAKL2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IAKMGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9iGAsGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-HnIkWf1Eemr1-Li7NDCzw" x="1560" y="2540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IAxMGf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IBYQGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IBYQWf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IBYQmf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IBYQ2f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTl44Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9m4aEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTl44Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IBYRGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IBYRWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IBYRmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IBYR2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IBYSGf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTl44mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9nAV4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTl442f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTmf8Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9nlksGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTmf8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTmf8mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9n3RgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTmf82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTmf9Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9pDkUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTmf9Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTnHAGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9pdM8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTnHAWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTnHAmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9plIwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTnHA2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTnHBGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9px9EGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTnHBWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTnuEGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9qDC0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTnuEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTnuEmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9qYaAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTnuE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTnuFGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9rgbYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTnuFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OToVIGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9r7SIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OToVIWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IBYSWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IBYSmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IBYS2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IBYTGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IBYTWf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OToVImf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9ngsMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OToVI2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OToVJGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9nzAEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OToVJWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTo8MGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9ozssGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTo8MWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTo8Mmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9pawsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTo8M2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTo8NGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9pj6oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTo8NWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTpjQGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9pvg0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTpjQWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTpjQmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9p_YcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTpjQ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTpjRGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9qVWsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTpjRWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTqKUGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9qpfwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTqKUWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTqKUmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9r3nwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTqKU2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTqKVGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9sQCQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTqKVWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTqxYGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9sYlIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTqxYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTqxYmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9sfS0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTqxY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IBYTmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IBYT2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IBYUGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IBYUWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9mjC4Gf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IAxMWf1Eemr1-Li7NDCzw" x="40" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IB_UGf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IB_Umf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IB_U2f1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IB_VGf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IB_VWf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTqxZGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9qwNcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTqxZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTrYcGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9qz30Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTrYcWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTrYcmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9q4wUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTrYc2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IB_Vmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IB_V2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IB_WGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IB_WWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IB_Wmf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTrYdGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9q7MkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTrYdWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTr_gGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9rHZ0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTr_gWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTr_gmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9ltVYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTr_g2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTr_hGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9mNrsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTr_hWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IB_W2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IB_XGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IB_XWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IB_Xmf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-ICmYGf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTsmkGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9rFkoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTsmkWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTsmkmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9rIA4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTsmk2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTtNoGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9mCskGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTtNoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTtNomf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9mWOkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTtNo2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-ICmYWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-ICmYmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-ICmY2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ICmZGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9qtKIGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IB_UWf1Eemr1-Li7NDCzw" x="1560" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-ICmZWf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-ICmZ2f1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-ICmaGf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-ICmaWf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-ICmamf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTt0sGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9rRx4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTt0sWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTt0smf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9rYfkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTt0s2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTt0tGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9rcxAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTt0tWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-ICma2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-ICmbGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-ICmbWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ICmbmf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IDNcGf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTubwGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9rgbYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTubwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTubwmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9r7SIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTubw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTubxGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9sFqMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTubxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTubxmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9sTFkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTubx2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTvC0Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9sbBYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTvC0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IDNcWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IDNcmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IDNc2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IDNdGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IDNdWf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTvC0mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9r3nwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTvC02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTvp4Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9sQCQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTvp4Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTvp4mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9sYlIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTvp42f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTvp5Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9sfS0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTvp5Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IDNdmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IDNd2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IDNeGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IDNeWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9mk4EGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ICmZmf1Eemr1-Li7NDCzw" x="80" y="2540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IDNemf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IDNfGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IDNfWf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-ID0gGf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-ID0gWf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OTvp5mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9sw_oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTvp52f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTwQ8Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9s2fMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTwQ8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTwQ8mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9s7XsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTwQ82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTwQ9Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tAQMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTwQ9Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTwQ9mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tFIsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTwQ92f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTw4AGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tKBMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTw4AWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTw4Amf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tQH0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTw4A2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTw4BGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tTLIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTw4BWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTw4Bmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tW1gGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTw4B2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTxfEGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9taf4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTxfEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTxfEmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tdjMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTxfE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTxfFGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9thNkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTxfFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTyGIGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tk38Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTyGIWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTyGImf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9toiUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTyGI2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTyGJGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tsMsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTyGJWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTyGJmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9tweIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTyGJ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTytMGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9t0IgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTytMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTytMmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9t2kwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTytM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTytNGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9t5BAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTytNWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTzUQGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9t8EUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTzUQWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTzUQmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9t-gkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTzUQ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTzURGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uBj4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTzURWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTzURmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uEAIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTzUR2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTzUSGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uHDcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTzUSWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTz7UGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uKt0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTz7UWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTz7Umf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uNKEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTz7U2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTz7VGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uQNYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTz7VWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OTz7Vmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uSCkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OTz7V2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT0iYGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uT3wGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT0iYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT0iYmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uVF4Wf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT0iY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT0iZGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uXiIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT0iZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT0iZmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9ueP0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT0iZ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT1JcGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9ugFAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT1JcWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT1Jcmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9uh6MGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT1Jc2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT1JdGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9ukWcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT1JdWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT1wgGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9umysGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT1wgWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT1wgmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9unZwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT1wg2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT1whGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9up2AGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT1whWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2XkGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9us5UGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2XkWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2Xkmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9u1cMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2Xk2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2XlGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9u8w8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2XlWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2-oGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9u_NMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2-oWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2-omf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9vCQgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2-o2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2-pGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9vEswGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2-pWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT2-pmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9vGh8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT2-p2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-ID0gmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-ID0g2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-ID0hGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ID0hWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-ID0hmf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OT3lsGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9vI-MGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT3lsWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT3lsmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9vgKkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT3ls2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT3ltGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9vmRMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT3ltWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT3ltmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9vuNAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT3lt2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT3luGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9v0ToGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT3luWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4MwGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9v5zMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4MwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4Mwmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9v-EoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4Mw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4MxGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wC9IGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4MxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4Mxmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wIcsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4Mx2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4z0Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wNVMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4z0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4z0mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wSNsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4z02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4z1Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wY7YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4z1Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4z1mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wea8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4z12f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT4z2Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wlIoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT4z2Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT5a4Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wqoMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT5a4Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT5a4mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9wvgsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT5a42f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT5a5Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9w1AQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT5a5Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT5a5mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xB0kGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT5a52f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6B8Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xIiQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6B8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6B8mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xOo4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6B82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6B9Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xYZ4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6B9Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6pAGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xg8wGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6pAWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6pAmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xuYIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6pA2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6pBGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9xzQoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6pBWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT6pBmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9x4wMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT6pB2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT7QEGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9x_d4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT7QEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT7QEmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9yOHYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT7QE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT7QFGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9ybiwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT7QFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT73IGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9ymh4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT73IWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT73Imf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9yvr0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT73I2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT73JGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9y6D4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT73JWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT73Jmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9zQCIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT73J2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT8eMGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9zhu8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT8eMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT8eMmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9z7XkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT8eM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT8eNGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90FvoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT8eNWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9FQGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90QHsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9FQWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9FQmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90W1YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9FQ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9FRGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90eKIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9FRWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9FRmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90mtAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9FR2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9sUGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90uBwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9sUWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9sUmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_901WgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9sU2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9sVGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_90_ukGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9sVWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT9sVmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91F1MGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT9sV2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-TYGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91LUwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-TYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-TYmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91QNQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-TY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-TZGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91alUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-TZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-TZmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91fd0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-TZ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-TaGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91k9YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-TaWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-6cGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91pO0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-6cWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-6cmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91sSIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-6c2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-6dGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91vVcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-6dWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT-6dmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_91xxsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT-6d2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-ID0h2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-ID0iGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-ID0iWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ID0imf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-ID0i2f1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OT_hgGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9vXAoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT_hgWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT_hgmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9vkcAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT_hg2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT_hhGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9vrwwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT_hhWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OT_hhmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9vzFgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OT_hh2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUAIkGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9v3-AGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUAIkWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUAIkmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9v7oYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUAIk2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUAIlGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wAg4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUAIlWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUAIlmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wGAcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUAIl2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUAvoGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wK48Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUAvoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUAvomf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wQYgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUAvo2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUBWsGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wWfIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUBWsWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUBWsmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wclwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUBWs2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUBWtGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wisYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUBWtWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUB9wGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9woL8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUB9wWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUB9wmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wtEcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUB9w2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUB9xGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9wykAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUB9xWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUB9xmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9w-xQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUCk0Gf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUCk0Wf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9xFe8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUCk0mf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUCk02f_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9xLlkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUCk1Gf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUCk1Wf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9xUvgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUCk1mf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUCk12f_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9xdSYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUCk2Gf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDL4Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9xrU0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDL4Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDL4mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9xw0YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDL42f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDL5Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9x2T8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDL5Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDL5mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9x7zgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDL52f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDy8Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9yKdAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDy8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDy8mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9yZGgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDy82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDy9Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9ykFoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDy9Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUDy9mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9yt2oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUDy92f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUEaAGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9y3noGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUEaAWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUEaAmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9zHfQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUEaA2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUEaBGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9zeEkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUEaBWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUEaBmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9z47UGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUEaB2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFBEGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_90DTYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFBEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFBEmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_90OSgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFBE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFBFGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_90VAMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFBFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFBFmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_90cU8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFBF2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFoIGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_90jpsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFoIWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFoImf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_90sMkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFoI2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUFoJGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_900IYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUFoJWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUGPMGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_909SUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUGPMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUGPMmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91EAAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUGPM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUGPNGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91KGoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUGPNWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUGPNmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91OYEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUGPN2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUG2QGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91YJEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUG2QWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUG2Qmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91dBkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUG2Q2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUG2RGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91h6EGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUG2RWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUG2Rmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91nZoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUG2R2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUHdUGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91rEAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUHdUWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUHdUmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91uHUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUHdU2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUHdVGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91wjkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUHdVWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUHdVmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_91zm4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUHdV2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-ID0jGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-ID0jWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-ID0jmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ID0j2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9svxgGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IDNe2f1Eemr1-Li7NDCzw" x="640" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-ID0kGf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IEbkGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IEbkWf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IEbkmf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IEbk2f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUIEYGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_916UkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIEYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUIEYmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_919X4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIEY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IEblGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IEblWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IEblmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IEbl2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IEbmGf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUIEZGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_92AbMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIEZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUIEZmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_92FTsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIEZ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUIEaGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_92N2kGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIEaWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IEbmWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IEbmmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IEbm2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IEbnGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IEbnWf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUIrcGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_92DegGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIrcWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUIrcmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_92LaUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIrc2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUIrdGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_92ZcwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIrdWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IEbnmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IEbn2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IEboGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IEboWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_914fYGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ID0kWf1Eemr1-Li7NDCzw" x="1260" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IEbomf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IFCoGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IFCoWf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IFComf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IFCo2f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUIrdmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_92jNwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUIrd2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJSgGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_92lC8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJSgWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IFCpGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IFCpWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IFCpmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFCp2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IFCqGf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUJSgmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_92nfMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJSg2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJShGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_92sXsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJShWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJShmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9206kGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJSh2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJ5kGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_92-rkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJ5kWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJ5kmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_93FZQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJ5k2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJ5lGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_93Up0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJ5lWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUJ5lmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_93gQAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUJ5l2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IFCqWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IFCqmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IFCq2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFCrGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IFCrWf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUKgoGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_92qigGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUKgoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUKgomf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_92yeUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUKgo2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUKgpGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9282YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUKgpWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUKgpmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_93ELIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUKgp2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OULHsGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_93RmgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULHsWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OULHsmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_93ea0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULHs2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OULHtGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_93heIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULHtWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IFCrmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IFCr2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IFCsGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFCsWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9uVF4Gf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IEbo2f1Eemr1-Li7NDCzw" x="1920" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IFCsmf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IFCtGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IFCtWf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IFCtmf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IFCt2f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OULuwGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_93yj4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULuwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OULuwmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_931AIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULuw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OULuxGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_937GwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULuxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OULuxmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_93_YMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OULux2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUMV0Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94H7EGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUMV0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUMV0mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94OowGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUMV02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUMV1Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94VWcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUMV1Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUMV1mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94ZA0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUMV12f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUM84Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94cEIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUM84Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUM84mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94egYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUM842f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUM85Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94g8oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUM85Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUM85mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94jY4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUM852f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUNj8Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94lOEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUNj8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUNj8mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94oRYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUNj82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUNj9Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94qGkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUNj9Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOLAGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94wNMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOLAWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOLAmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94yCYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOLA2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOLBGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94z3kGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOLBWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOLBmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_94264Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOLB2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOyEGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_947zYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOyEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOyEmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_95BS8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOyE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOyFGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_95E9UGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOyFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IFCuGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IFCuWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IFCumf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFCu2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IFpsGf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUOyFmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95HZkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUOyF2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUOyGGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95NgMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUPZIGf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUPZIWf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95YfUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUPZImf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUPZI2f_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95hpQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUPZJGf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUQAMGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95plEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUQAMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUQAMmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95wSwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUQAM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUQANGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95z9IGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUQnQGf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUQnQWf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_955csGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUQnQmf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUQnQ2f_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_95-VMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUQnRGf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUROUGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96CmoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUROUWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUROUmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96GRAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUROU2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUR1YGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96KicGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUR1YWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUR1Ymf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96NlwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUR1Y2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUR1ZGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96RQIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUR1ZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUSccGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96UTcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUSccWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUSccmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96X90Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUScc2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTDgGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96bBIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTDgWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTDgmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96ergGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTDg2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTDhGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96i88Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTDhWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTDhmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96mnUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTDh2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTqkGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96qRsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTqkWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTqkmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96tVAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTqk2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTqlGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_96yNgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTqlWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUTqlmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_961Q0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUTql2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUURoGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_965iQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUURoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUURomf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_969MoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUURo2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUURpGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_97A3AGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUURpWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IFpsWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IFpsmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IFps2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFptGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IFptWf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUU4sGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95MSEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUU4sWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUU4smf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95WqIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUU4s2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUU4tGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95fNAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUU4tWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUVfwGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95nI0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUVfwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUVfwmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95t2gGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUVfw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUVfxGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95yvAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUVfxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUWG0Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_953AcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUWG0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUWG0mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_95748Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUWG02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUWG1Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96AxcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUWG1Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUWt4Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96Fp8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUWt4Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUWt4mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96JUUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUWt42f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUWt5Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96MXomf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUWt5Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUXU8Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96QCAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUXU8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUXU8mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96TFUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUXU82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUX8AGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96WIoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUX8AWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUX8Amf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96ZzAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUX8A2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUX8BGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96ddYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUX8BWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUYjEGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96hHwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUYjEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUYjEmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96kyIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUYjE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUYjFGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96ocgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUYjFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUZKIGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96sG4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUZKIWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUZKImf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96vxQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUZKI2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUZKJGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_960CsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUZKJWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUZxMGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_963tEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUZxMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUZxMmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_967XcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUZxM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUZxNGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_96_B0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUZxNWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUaYQGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_97CsMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUaYQWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IFptmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IFpt2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IFpuGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFpuWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9pm98Gf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFCs2f1Eemr1-Li7NDCzw" x="2280" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IFpumf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IFpvGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IGQwGf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IGQwWf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IGQwmf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUaYQmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97KA8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUaYQ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUaYRGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97NEQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUaYRWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUaYRmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97QHkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUaYR2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUa_UGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97R8wGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUa_UWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUa_Umf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97Tx8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUa_U2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUbmYGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97VnIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUbmYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUbmYmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_97Z4kGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUbmY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IGQw2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IGQxGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IGQxWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IGQxmf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IGQx2f1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUbmZGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_97cU0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUcNcGf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUcNcWf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_97uosGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUcNcmf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUcNc2f_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_978rIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUcNdGf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUc0gGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_98CKsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUc0gWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUc0gmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_98KtkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUc0g2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUc0hGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_98ePkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUc0hWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUdbkGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_98wjcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUdbkWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUdbkmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9834MGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUdbk2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUdblGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_99BpMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUdblWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUeCoGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_99MoUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUeCoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IGQyGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IGQyWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IGQymf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IGQy2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IGQzGf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUeComf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_97rlYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUeCo2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUepsGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_97618Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUepsWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUepsmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_98AVgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUeps2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUfQwGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_98FOAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUfQwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUfQwmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_98alMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUfQw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUfQxGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_98uuQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUfQxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUf30Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_982DAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUf30Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUf30mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_98_0AGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUf302f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUf31Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_99KMEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUf31Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUge4Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_99SH4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUge4Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IGQzWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IGQzmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IGQz2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IGQ0Gf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_97Iy0Gf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IFpu2f1Eemr1-Li7NDCzw" x="2780" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IGQ0Wf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IG30Gf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IG30Wf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IG30mf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IG302f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUge4mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_99dHAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUge42f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUge5Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_99fjQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUge5Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IG31Gf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IG31Wf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IG31mf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IG312f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IG32Gf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUhF8Gf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_99m4AGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhF8Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUhF8mf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_99va4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhF82f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IG32Wf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IG32mf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IG322f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IG33Gf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IG33Wf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUhF9Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_99qiYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhF9Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUhtAGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_992IkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhtAWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IG33mf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IG332f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IG34Gf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IG34Wf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_99XncGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IGQ0mf1Eemr1-Li7NDCzw" x="4200" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IG34mf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IHe4Gf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IHe4Wf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IHe4mf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IHe42f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUhtAmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_99-rcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhtA2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUhtBGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9-BuwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhtBWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUhtBmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9-EyEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUhtB2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IHe5Gf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IHe5Wf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IHe5mf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IHe52f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IHe6Gf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUiUEGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-H1YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUiUEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUiUEmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-LfwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUiUE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUiUFGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-V30Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUiUFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IHe6Wf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IHe6mf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IHe62f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IHe7Gf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IHe7Wf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUi7IGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9-JqkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUi7IWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUi7Imf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9-TbkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUi7I2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUi7JGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9-iFEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUi7JWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IHe7mf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IHe72f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IHe8Gf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IHe8Wf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_997oIGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IG342f1Eemr1-Li7NDCzw" x="3620" y="2540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IIF8Gf1Eemr1-Li7NDCzw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IIF8mf1Eemr1-Li7NDCzw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IIF82f1Eemr1-Li7NDCzw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IIF9Gf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IIF9Wf1Eemr1-Li7NDCzw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IIF9mf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IIF92f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IIF-Gf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IIF-Wf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IIF-mf1Eemr1-Li7NDCzw" type="Interface_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUi7Jmf_Eem9-ObBXDbaCA" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-oywGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUi7J2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IIF-2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IIF_Gf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IIF_Wf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IIF_mf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IItAGf1Eemr1-Li7NDCzw" type="Interface_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IItAWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IItAmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IItA2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IItBGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="judy-cli.uml#_9-m9kGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IIF8Wf1Eemr1-Li7NDCzw" x="5640" y="2540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IItBWf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IJUEGf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IJUEWf1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IJUEmf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IJUE2f1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUjiMGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9_DpgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUjiMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUjiMmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9_Gs0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUjiM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUjiNGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9_OBkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUjiNWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUjiNmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9_RE4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUjiN2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IJUFGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IJUFWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IJUFmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJUF2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IJUGGf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUjiOGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9_UvQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUjiOWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkJQGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9_jYwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkJQWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkJQmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9_r7oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkJQ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkJRGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9_6lIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkJRWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkJRmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9__doGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkJR2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkwUGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-AFkQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkwUWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkwUmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-AS_oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkwU2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkwVGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-AhpIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkwVWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkwVmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-Ao94Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkwV2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUkwWGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-Ayu4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUkwWWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUlXYGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-A9G8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUlXYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUlXYmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-BMXgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUlXY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUlXZGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-BU6YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUlXZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUlXZmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-Bc2MGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUlXZ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUl-cGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-Bjj4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUl-cWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUl-cmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-BnOQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUl-c2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUl-dGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-BtU4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUl-dWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUl-dmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-ByNYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUl-d2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUl-eGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-B47EGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUl-eWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUmlgGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-CA24Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUmlgWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUmlgmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-CLO8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUmlg2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUmlhGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-CU_8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUmlhWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IJUGWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IJUGmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IJUG2f1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJUHGf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IJUHWf1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUmlhmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9_hjkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUmlh2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUmliGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9_o4UGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUmliWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnMkGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9_4I4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnMkWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnMkmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9_9BYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnMk2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnMlGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-ADIAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnMlWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnMlmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-AKcwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnMl2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnzoGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-AcJkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnzoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnzomf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-AnvwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnzo2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnzpGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-AvrkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnzpWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnzpmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-A6DoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnzp2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUnzqGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BHfAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUnzqWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUoasGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BSeIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUoasWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUoasmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BaZ8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUoas2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUoatGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BhusGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUoatWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUoatmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BlZEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUoat2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUoauGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BpqgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUoauWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpBwGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-BwYMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpBwWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpBwmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-B0poGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpBw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpBxGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-B9zkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpBxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpo0Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-CILoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpo0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpo0mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-CRVkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpo02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpo1Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-CbtoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpo1Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUpo1mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Class" href="judy-cli.uml#_-Ael0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUpo12f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUqP4Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Class" href="judy-cli.uml#_-DLUgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUqP4Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IJUHmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IJUH2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IJUIGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJUIWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_9-__IGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IItBmf1Eemr1-Li7NDCzw" x="4600" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IJ7IGf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IJ7Imf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IJ7I2f1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IJ7JGf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IJ7JWf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUqP4mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-Dp1oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUqP42f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUqP5Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-DtgAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUqP5Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUqP5mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-DwjUGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUqP52f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUqP6Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-DzmoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUqP6Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUq28Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-D2p8Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUq28Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUq28mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-D5tQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUq282f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUq29Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-D8JgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUq29Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUq29mf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-D_M0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUq292f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUq2-Gf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-EBpEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUq2-Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUreAGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_99-rcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUreAWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUreAmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9-BuwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUreA2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUreBGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_9-EyEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUreBWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IJ7Jmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IJ7J2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IJ7KGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJ7KWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IJ7Kmf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUreBmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-EDeQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUreB2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUsFEGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-EPEcGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUsFEWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUsFEmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-EbRsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUsFE2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUsFFGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-EgxQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUsFFWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUsFFmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-ElpwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUsFF2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUsFGGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-EqiQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUsFGWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUssIGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-E7oAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUssIWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUssImf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-FCVsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUssI2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUssJGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-FH1QGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUssJWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUssJmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-FNU0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUssJ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUtTMGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-H1YGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUtTMWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUtTMmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-LfwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUtTM2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUtTNGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_9-V30Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUtTNWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IJ7K2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IJ7LGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IJ7LWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJ7Lmf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IJ7L2f1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUtTNmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-EHvsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUtTN2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUt6QGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-EZcgGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUt6QWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUt6Qmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-Ee8EGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUt6Q2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUuhUGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-EkboGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUuhUWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUuhUmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-EpUIWf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUuhU2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUuhVGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-E5y0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUuhVWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUuhVmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-FAggGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUuhV2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUvIYGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-FGAEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvIYWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUvIYmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-FMGsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvIY2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUvIZGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-FPxEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvIZWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUvIZmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9-JqkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvIZ2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUvIaGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9-TbkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvIaWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUvvcGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_9-iFEGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvvcWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IJ7MGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IJ7MWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IJ7Mmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJ7M2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_-DoAcGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IJ7IWf1Eemr1-Li7NDCzw" x="3340" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IKiMGf1Eemr1-Li7NDCzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IKiMmf1Eemr1-Li7NDCzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IKiM2f1Eemr1-Li7NDCzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-IKiNGf1Eemr1-Li7NDCzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IKiNWf1Eemr1-Li7NDCzw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUvvcmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-FXs4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUvvc2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUwWgGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-FbXQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUwWgWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUwWgmf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-FisAGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUwWg2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUw9kGf_Eem9-ObBXDbaCA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="judy-cli.uml#_-FoLkGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUw9kWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IKiNmf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IKiN2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IKiOGf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IKiOWf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IKiOmf1Eemr1-Li7NDCzw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUw9kmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-FpZsGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUw9k2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUw9lGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-FtrIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUw9lWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUw9lmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-FzxwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUw9l2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUxkoGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-F4qQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUxkoWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUxkomf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-F-J0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUxko2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUxkpGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-GCbQGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUxkpWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUxkpmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-GIh4Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUxkp2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyLsGf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-GNaYGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyLsWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyLsmf_Eem9-ObBXDbaCA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="judy-cli.uml#_-GRr0Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyLs2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IKiO2f1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IKiPGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IKiPWf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IKiPmf1Eemr1-Li7NDCzw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IKiP2f1Eemr1-Li7NDCzw" type="Class_NestedClassifierCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_OUyLtGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-Fr18Gf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyLtWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyLtmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-FwHYWf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyLt2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyywGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-F3cIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyywWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyywmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-F8UoGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyyw2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyyxGf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-GBNIGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyyxWf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUyyxmf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-GHTwGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUyyx2f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUzZ0Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-GLlMGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUzZ0Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUzZ0mf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-GP2oGf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUzZ02f_Eem9-ObBXDbaCA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OUzZ1Gf_Eem9-ObBXDbaCA" type="Class_ClassNestedClassifierLabel">
+          <element xmi:type="uml:OpaqueBehavior" href="judy-cli.uml#_-GThAWf1Eemr1-Li7NDCzw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OUzZ1Wf_Eem9-ObBXDbaCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IKiQGf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IKiQWf1Eemr1-Li7NDCzw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IKiQmf1Eemr1-Li7NDCzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IKiQ2f1Eemr1-Li7NDCzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="judy-cli.uml#_-FV3sGf1Eemr1-Li7NDCzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IKiMWf1Eemr1-Li7NDCzw" x="5420" y="40"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ytjgEWf1Eemr1-Li7NDCzw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ytjgEmf1Eemr1-Li7NDCzw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ytjgE2f1Eemr1-Li7NDCzw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="judy-cli.uml#_yidDUGf1Eemr1-Li7NDCzw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="judy-cli.uml#_yidDUGf1Eemr1-Li7NDCzw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_D_FSQGf2Eemr1-Li7NDCzw" type="Generalization_Edge" source="_-IJ7IGf1Eemr1-Li7NDCzw" target="_-IG34mf1Eemr1-Li7NDCzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FercwGf2Eemr1-Li7NDCzw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FesD0Gf2Eemr1-Li7NDCzw" key="visible" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_D_HugGf2Eemr1-Li7NDCzw" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Pck6MGf_Eem9-ObBXDbaCA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D_HugWf2Eemr1-Li7NDCzw" x="1" y="38"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D_F5UGf2Eemr1-Li7NDCzw"/>
+      <element xmi:type="uml:Generalization" href="judy-cli.uml#_-DongGf1Eemr1-Li7NDCzw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D_F5UWf2Eemr1-Li7NDCzw" points="[3744, 700, -643984, -643984]$[3744, 2536, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pcn9gGf_Eem9-ObBXDbaCA" id="(0.495,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pcn9gWf_Eem9-ObBXDbaCA" id="(0.4743083003952569,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_D_Kx0Gf2Eemr1-Li7NDCzw" type="Generalization_Edge" source="_-IB_UGf1Eemr1-Li7NDCzw" target="_-HnIkGf1Eemr1-Li7NDCzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FetR8Gf2Eemr1-Li7NDCzw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FetR8Wf2Eemr1-Li7NDCzw" key="visible" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_D_LY4Gf2Eemr1-Li7NDCzw" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_GpTc0Gf2Eemr1-Li7NDCzw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D_LY4Wf2Eemr1-Li7NDCzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D_Kx0Wf2Eemr1-Li7NDCzw"/>
+      <element xmi:type="uml:Generalization" href="judy-cli.uml#_9quYQGf1Eemr1-Li7NDCzw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D_Kx0mf2Eemr1-Li7NDCzw" points="[1713, 268, -643984, -643984]$[1713, 2536, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gp3dgGf2Eemr1-Li7NDCzw" id="(0.4563758389261745,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gp3dgWf2Eemr1-Li7NDCzw" id="(0.4697986577181208,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_D_MnAGf2Eemr1-Li7NDCzw" type="InterfaceRealization_Edge" source="_-IKiMGf1Eemr1-Li7NDCzw" target="_-IIF8Gf1Eemr1-Li7NDCzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FetR8mf2Eemr1-Li7NDCzw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FetR82f2Eemr1-Li7NDCzw" key="visible" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_D_MnA2f2Eemr1-Li7NDCzw" type="InterfaceRealization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PctdEGf_Eem9-ObBXDbaCA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D_MnBGf2Eemr1-Li7NDCzw" x="1" y="38"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_D_MnBWf2Eemr1-Li7NDCzw" type="InterfaceRealization_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PcuEIGf_Eem9-ObBXDbaCA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D_MnBmf2Eemr1-Li7NDCzw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D_MnAWf2Eemr1-Li7NDCzw"/>
+      <element xmi:type="uml:InterfaceRealization" href="judy-cli.uml#_-FWewGf1Eemr1-Li7NDCzw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D_MnAmf2Eemr1-Li7NDCzw" points="[5858, 444, -643984, -643984]$[5858, 2536, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PcxHcGf_Eem9-ObBXDbaCA" id="(0.5023201856148491,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PcxHcWf_Eem9-ObBXDbaCA" id="(0.497737556561086,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_D_N1IGf2Eemr1-Li7NDCzw" type="Generalization_Edge" source="_-IAxMGf1Eemr1-Li7NDCzw" target="_-ICmZWf1Eemr1-Li7NDCzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fet5AGf2Eemr1-Li7NDCzw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fet5AWf2Eemr1-Li7NDCzw" key="visible" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_D_N1I2f2Eemr1-Li7NDCzw" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_GQtWoGf2Eemr1-Li7NDCzw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D_N1JGf2Eemr1-Li7NDCzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D_N1IWf2Eemr1-Li7NDCzw"/>
+      <element xmi:type="uml:Generalization" href="judy-cli.uml#_9mmtQGf1Eemr1-Li7NDCzw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D_N1Imf2Eemr1-Li7NDCzw" points="[302, 492, -643984, -643984]$[302, 2536, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GReysGf2Eemr1-Li7NDCzw" id="(0.47706422018348627,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GRfZwGf2Eemr1-Li7NDCzw" id="(0.49563318777292575,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_yuZ0oGf1Eemr1-Li7NDCzw" type="PapyrusUMLClassDiagram" name="Package Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_yuZ0oWf1Eemr1-Li7NDCzw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_yuZ0omf1Eemr1-Li7NDCzw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_yuZ0o2f1Eemr1-Li7NDCzw" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+      <owner xmi:type="uml:Model" href="judy-cli.uml#_yidDUGf1Eemr1-Li7NDCzw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="judy-cli.uml#_yidDUGf1Eemr1-Li7NDCzw"/>
+  </notation:Diagram>
+</xmi:XMI>

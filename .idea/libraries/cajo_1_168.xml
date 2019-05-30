@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cajo-1.168">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/judy-core/lib/gnu/cajo/cajo/1.168/cajo-1.168.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

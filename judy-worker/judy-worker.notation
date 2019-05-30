@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_e4X50Gf_Eem9-ObBXDbaCA" type="PapyrusUMLClassDiagram" name="Package Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_e4X50Wf_Eem9-ObBXDbaCA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_e4X50mf_Eem9-ObBXDbaCA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_e4X502f_Eem9-ObBXDbaCA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+      <owner href="judy-worker.uml#_e2JFMGf_Eem9-ObBXDbaCA"/>
+    </styles>
+    <element href="judy-worker.uml#_e2JFMGf_Eem9-ObBXDbaCA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_e5QqoGf_Eem9-ObBXDbaCA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_e5QqoWf_Eem9-ObBXDbaCA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_e5Qqomf_Eem9-ObBXDbaCA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_e5Qqo2f_Eem9-ObBXDbaCA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner href="judy-worker.uml#_e2JFMGf_Eem9-ObBXDbaCA"/>
+    </styles>
+    <element href="judy-worker.uml#_e2JFMGf_Eem9-ObBXDbaCA"/>
+  </notation:Diagram>
+</xmi:XMI>

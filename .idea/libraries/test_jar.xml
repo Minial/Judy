@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="test-jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/judy-core/src/test/resources/test-jar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
