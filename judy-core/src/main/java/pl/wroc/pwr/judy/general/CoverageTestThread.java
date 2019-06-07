@@ -94,5 +94,8 @@ public class CoverageTestThread extends JUnitTestThread {
 
 	protected IRuntime createRuntime() {
 		return new LoggerRuntime();
-	}
+	}/*
+	public String printResult() {
+		return result.wasSuccessful() + " " + testClass + " " + testMethod ;
+	}*/
 }

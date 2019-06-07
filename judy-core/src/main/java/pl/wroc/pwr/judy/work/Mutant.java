@@ -26,6 +26,7 @@ public class Mutant implements IMutant {
 	private int id;
 	private TestResultList testResults = new TestResultList();
 	private String targetClassName;
+	public static int nbrMutant=0;
 
 	/**
 	 * Mutant constructor.
@@ -89,6 +90,7 @@ public class Mutant implements IMutant {
 		operatorsNames.add(operator);
 		points.add(mutationPoint);
 		indexes.add(mutationIndex);
+		HashToId();
 	}
 
 	@Override
@@ -96,6 +98,32 @@ public class Mutant implements IMutant {
 		return operatorsNames;
 	}
 
+	public void HashToId() {//create a unique id to identify each mutant
+		id=0;
+		String temp;
+		for (String OpNames : operatorsNames) {
+			id+=OpNames.hashCode();
+		}/*
+		for (char OpNamesChar : temp.toCharArray()) {
+			id+=getNumeric
+		}*/
+		for(int point : points) {
+			id+=point;
+		}
+		for(int index : indexes) {
+			id+=index;
+		}
+		for(int line : linesNumbers) {
+			id+=line;
+		}
+		for(int operatorIndex : operatorsIndexes) {
+			id+=operatorIndex;
+		}
+		nbrMutant++;
+		System.out.println("id : " + id + "\t nbrMutant : " + nbrMutant);
+		
+	}
+	
 	@Override
 	public List<Integer> getMutionPointsIndexes() {
 		return points;
@@ -142,6 +170,7 @@ public class Mutant implements IMutant {
 	 */
 	@Override
 	public int getId() {
+		//System.out.println("get id : " + id + "\t nbrMutant : " + nbrMutant);
 		return id;
 	}
 
@@ -150,6 +179,7 @@ public class Mutant implements IMutant {
 	 */
 	@Override
 	public void setId(int id) {
+		//System.out.println("set id : " + id + "\t nbrMutant : " + nbrMutant);
 		this.id = id;
 	}
 

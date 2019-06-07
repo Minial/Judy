@@ -74,6 +74,7 @@ public class JUnitCoverageTester extends JUnitTester implements ITester {
 		List<TestTask> futureTasks = new ArrayList<>(testMethods.size());
 
 		for (String testMethod : testMethods) {
+			//System.out.println(testClassName + " " + testMethod);
 			CoverageTestThread task = threadFactory.createCoverageTestThread(factory, details, testClassName,
 					testMethod);
 			futureTasks.add(new TestTask(testClassName, testMethod, executor.submit(task)));

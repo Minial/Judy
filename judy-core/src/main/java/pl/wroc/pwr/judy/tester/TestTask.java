@@ -23,6 +23,8 @@ public class TestTask {
 	public TestTask(String testClassName, String testMethodName, Future<Result> task) {
 		description = testClassName + "." + testMethodName;
 		this.task = task;
+
+		//System.out.println(testClassName + " " + testMethod);
 	}
 
 	/**
