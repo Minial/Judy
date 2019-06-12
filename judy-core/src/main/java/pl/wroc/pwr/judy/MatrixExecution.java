@@ -8,6 +8,7 @@ public class MatrixExecution implements IMatrix {
 		private ArrayList<String> nameMutants;//name of each mutant
 		private ArrayList<ArrayList<Boolean>> matrixSuccess; //list of coverage between mutants and tests ( [IndexMutant][IndexTest] )
 		//index of nameMutants and nameTests are equivalent to index of matrixSuccess
+		public static int nbr = 0;
 		
 		public MatrixExecution() {
 			nameTests = new ArrayList<String>();
@@ -98,6 +99,9 @@ public class MatrixExecution implements IMatrix {
 				temp.add(indexOfTest, success);
 				matrixSuccess.add(indexOfMutant, temp);
 			}
+			nbr++;
+			System.out.println("biiiiiiiiip !	" + nbr);
+
 		}
 		
 		

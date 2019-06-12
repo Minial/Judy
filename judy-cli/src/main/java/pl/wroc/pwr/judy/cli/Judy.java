@@ -110,6 +110,7 @@ public class Judy extends AbstractExec {
 
 	private void printResults(final IClientConfig config, final IMutationResult results, final IInitialTestsRun testRun) {
 		for (final String line : new MutationSummaryFormatter().getSummary(results, testRun).split("\n")) {
+			System.out.println(line);																						//AJOUT
 			LOGGER.info(line);
 		}
 		LOGGER.info("");

@@ -24,6 +24,7 @@ public class SomMutationWork extends MutationWork {
 
     private final SomFactory somFactory;
     private String algorithm;
+    public MatrixExecution MatrixE;
 
     /**
      * Creates mutation work creating and evaluating second order mutants
@@ -57,10 +58,11 @@ public class SomMutationWork extends MutationWork {
                 || algorithm.equals(SomStrategy.LAST_TO_FIRST_ABC.getParam())
                 || algorithm.equals(SomStrategy.LAST_TO_FIRST_SORTED_ABC.getParam())) {
             LOGGER.debug("Generating FOMs first...");
-            this.getEvaluator().evaluate(foms, false);
+            this.getEvaluator().evaluate(foms, false, MatrixE);
             this.initReset();
         }
         LOGGER.debug("Generating SOMs...");
+		//System.out.println("hey ??");
         return somFactory.create(foms, getOperators());
     }
 }

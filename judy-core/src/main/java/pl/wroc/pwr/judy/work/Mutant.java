@@ -98,6 +98,7 @@ public class Mutant implements IMutant {
 		return operatorsNames;
 	}
 
+	@Override
 	public void HashToId() {//create a unique id to identify each mutant
 		id=0;
 		String temp;
@@ -120,7 +121,7 @@ public class Mutant implements IMutant {
 			id+=operatorIndex;
 		}
 		nbrMutant++;
-		System.out.println("id : " + id + "\t nbrMutant : " + nbrMutant);
+		//System.out.println("id : " + id + "\t nbrMutant : " + nbrMutant);
 		
 	}
 	

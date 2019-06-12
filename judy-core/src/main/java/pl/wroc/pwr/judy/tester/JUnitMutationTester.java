@@ -17,7 +17,7 @@ public class JUnitMutationTester extends JUnitTester implements ITester {
 
 	private ITestThreadFactory threadFactory;
 	public MatrixExecution MatrixE;
-
+	
 	/**
 	 * Creates JUnit mutation tester with given test thread factory.
 	 *

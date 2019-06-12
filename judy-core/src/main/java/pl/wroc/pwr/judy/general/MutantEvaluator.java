@@ -14,6 +14,8 @@ import pl.wroc.pwr.judy.tester.ITester;
 import pl.wroc.pwr.judy.tester.JUnitTester;
 import pl.wroc.pwr.judy.utils.Timer;
 import pl.wroc.pwr.judy.work.TestDuration;
+import pl.wroc.pwr.judy.MatrixCoverage;
+import pl.wroc.pwr.judy.MatrixExecution;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +31,7 @@ public class MutantEvaluator implements IMutantEvaluator {
 	private ArrayList<IMutant> aliveMutants = new ArrayList<>();
 	private ArrayList<IMutant> killedMutants = new ArrayList<>();
 	private final IResearchDataCollector research = new ResearchDataCollector();
+	public MatrixExecution MatrixE_;
 
 	/**
 	 * Creates mutant evaluator for checking whether tests kill mutant or not
@@ -48,7 +51,24 @@ public class MutantEvaluator implements IMutantEvaluator {
 	}
 
 	@Override
+	public void evaluate(List<IMutant> mutants, boolean include, MatrixExecution MatrixE) {
+		//System.out.println( "bug :)                  yeah !");
+		List<TestDuration> tests = targetClass.getSortedTests();
+		for (IMutant mutant : mutants) {
+			if (!aliveMutants.contains(mutant) && !killedMutants.contains(mutant)) {
+				boolean killed = areTestsKillingMutant(getCoveringTestClasses(tests, mutant), mutant, MatrixE);
+				if (include) {
+					saveMutant(mutant, killed);
+				}
+			} else {
+				saveWithOldTestResults(mutant);
+			}
+		}
+	}
+	
+	@Override
 	public void evaluate(List<IMutant> mutants, boolean include) {
+		System.out.println( "bug ?");
 		List<TestDuration> tests = targetClass.getSortedTests();
 		for (IMutant mutant : mutants) {
 			if (!aliveMutants.contains(mutant) && !killedMutants.contains(mutant)) {
@@ -99,6 +119,7 @@ public class MutantEvaluator implements IMutantEvaluator {
 	}
 
 	private boolean areTestsKillingMutant(List<TestDuration> tests, IMutant mutant) {
+		System.out.println( "wasp ?");
 		boolean wasKilled = false;
 
 		// mutant evaluation begins - set new classloader.
@@ -112,6 +133,29 @@ public class MutantEvaluator implements IMutantEvaluator {
 			Set<String> coveringTestMethods = targetClass.getCoveringMethods(testDuration.getTestClassName(),
 					mutant.getLinesNumbers());
 			wasKilled = isTestClassKillingMutant(testDuration, coveringTestMethods, mutant) || wasKilled;
+		}
+		mutant.getResults().trimToSize();
+
+		// mutant evaluation ends - set back old classloader.
+		Thread.currentThread().setContextClassLoader(contextLoader);
+		return wasKilled;
+	}
+	
+	private boolean areTestsKillingMutant(List<TestDuration> tests, IMutant mutant, MatrixExecution MatrixE) {
+		boolean wasKilled = false;
+
+		// mutant evaluation begins - set new classloader.
+		IMutationClassLoaderFactory factory = createClassLoaderFactory(mutant.getBytecode().getBytecode(),
+				getInfiniteLoopGuardTimeout(tests));
+		ClassLoader contextLoader = Thread.currentThread().getContextClassLoader();
+		MutationClassLoader mutationLoader = factory.createLoader();
+		Thread.currentThread().setContextClassLoader(mutationLoader);
+
+		for (TestDuration testDuration : tests) {
+			//System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp !");
+			Set<String> coveringTestMethods = targetClass.getCoveringMethods(testDuration.getTestClassName(),
+					mutant.getLinesNumbers());
+			wasKilled = isTestClassKillingMutant(testDuration, coveringTestMethods, mutant, MatrixE) || wasKilled;
 		}
 		mutant.getResults().trimToSize();
 
@@ -154,6 +198,31 @@ public class MutantEvaluator implements IMutantEvaluator {
 		statistic.addTestRun(timer.getDuration());
 		statistic.addTestMethods(testrunResult.getTestMethods().size());
 		saveResearchData(mutant, testrunResult);
+
+		//System.out.println("mutant id " + mutant.getId() + "\t test name : " + test.getTestClassName() + "\t test passed : " + testrunResult.passed());
+
+		return !testrunResult.passed();
+	}
+	
+	private boolean isTestClassKillingMutant(TestDuration test, Set<String> coveringTestMethods, IMutant mutant, MatrixExecution MatrixE) {
+		System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp ?");
+		Timer timer = new Timer();
+		// In case something really time consuming happen and it is not handled
+		// by infinite loop guard:
+		long testClassExecutionTimeout = getTestClassExecutionTimeout(test.getDuration());
+
+		ITestResult testrunResult = tester.getTestResult(test.getTestClassName(), coveringTestMethods,
+				testClassExecutionTimeout);
+
+		mutant.saveResult(testrunResult);
+
+		statistic.addTestRun(timer.getDuration());
+		statistic.addTestMethods(testrunResult.getTestMethods().size());
+		saveResearchData(mutant, testrunResult);
+		
+		String temp = "" + mutant.getId();
+		System.out.println("mutant id " + temp + "\t test name : " + test.getTestClassName() + "\t test passed : " + testrunResult.passed());
+		MatrixE.addResult(temp, test.getTestClassName(), testrunResult.passed());
 
 		return !testrunResult.passed();
 	}

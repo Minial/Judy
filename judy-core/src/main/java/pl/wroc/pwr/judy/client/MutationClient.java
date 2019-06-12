@@ -76,9 +76,10 @@ public abstract class MutationClient implements IMutationClient {
 			float estimatedEffort = estimator.estimate(targetClassName);
 			TargetClass tc = createTargetClass(targetClassName, estimatedEffort);
 			client.schedule(createMutationWork(client.getId(), factory, tc, MatrixE));
+			System.out.println("hey !");
 		}
-
-		return createMutationResults(client.getResults());
+		List<IClassMutationResult> temp = createMutationResults(client.getResults());
+		return temp;
 	}
 
 	private TargetClass createTargetClass(String targetClassName, float estimatedEffort) {

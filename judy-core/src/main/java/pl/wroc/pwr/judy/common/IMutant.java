@@ -37,6 +37,11 @@ public interface IMutant extends Comparable<IMutant>, Serializable, Cloneable {
 	 * @return mutant index
 	 */
 	int getMutantIndex();
+	
+	/*
+	 * create the mutant id
+	 */
+	void HashToId();
 
 	/**
 	 * Add another mutation information for higher order mutants
