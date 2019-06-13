@@ -31,7 +31,6 @@ public class MutantEvaluator implements IMutantEvaluator {
 	private ArrayList<IMutant> aliveMutants = new ArrayList<>();
 	private ArrayList<IMutant> killedMutants = new ArrayList<>();
 	private final IResearchDataCollector research = new ResearchDataCollector();
-	public MatrixExecution MatrixE_;
 
 	/**
 	 * Creates mutant evaluator for checking whether tests kill mutant or not
@@ -155,7 +154,7 @@ public class MutantEvaluator implements IMutantEvaluator {
 			//System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp !");
 			Set<String> coveringTestMethods = targetClass.getCoveringMethods(testDuration.getTestClassName(),
 					mutant.getLinesNumbers());
-			wasKilled = isTestClassKillingMutant(testDuration, coveringTestMethods, mutant, MatrixE) || wasKilled;
+			wasKilled = isTestClassKillingMutant(testDuration, coveringTestMethods, mutant, MatrixE_) || wasKilled;
 		}
 		mutant.getResults().trimToSize();
 
@@ -200,12 +199,15 @@ public class MutantEvaluator implements IMutantEvaluator {
 		saveResearchData(mutant, testrunResult);
 
 		//System.out.println("mutant id " + mutant.getId() + "\t test name : " + test.getTestClassName() + "\t test passed : " + testrunResult.passed());
+		//System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp ?");
+		//MatrixE_.test();
+		//System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp !!");
 
 		return !testrunResult.passed();
 	}
 	
 	private boolean isTestClassKillingMutant(TestDuration test, Set<String> coveringTestMethods, IMutant mutant, MatrixExecution MatrixE) {
-		System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp ?");
+		//System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp ?");
 		Timer timer = new Timer();
 		// In case something really time consuming happen and it is not handled
 		// by infinite loop guard:
@@ -221,8 +223,9 @@ public class MutantEvaluator implements IMutantEvaluator {
 		saveResearchData(mutant, testrunResult);
 		
 		String temp = "" + mutant.getId();
-		System.out.println("mutant id " + temp + "\t test name : " + test.getTestClassName() + "\t test passed : " + testrunResult.passed());
+		//System.out.println("mutant id " + temp + "\t test name : " + test.getTestClassName() + "\t test passed : " + testrunResult.passed());
 		MatrixE.addResult(temp, test.getTestClassName(), testrunResult.passed());
+		//MatrixE_.test();
 
 		return !testrunResult.passed();
 	}

@@ -31,7 +31,7 @@ public abstract class MutationClient implements IMutationClient {
 	private List<IDescriptable> operators;
 	private IMutationWorkFactory workFactory;
 	private Observer workProgressObserver;
-	private MatrixExecution MatrixE;
+	public MatrixExecution MatrixE;
 
 	/**
 	 * <code>MutationClient</code> constructor.
@@ -76,7 +76,7 @@ public abstract class MutationClient implements IMutationClient {
 			float estimatedEffort = estimator.estimate(targetClassName);
 			TargetClass tc = createTargetClass(targetClassName, estimatedEffort);
 			client.schedule(createMutationWork(client.getId(), factory, tc, MatrixE));
-			System.out.println("hey !");
+			//System.out.println("hey !");
 		}
 		List<IClassMutationResult> temp = createMutationResults(client.getResults());
 		return temp;

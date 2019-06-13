@@ -61,6 +61,8 @@ public class Judy extends AbstractExec {
 
 		final ITargetClassesSorter targetClassesSorter = new TargetClassesSorter();
 		targetClassesSorter.sortTargetClasses(config, testRun);
+		
+		MatrixE = new MatrixExecution();
 
 		final IMutationClientFactory clientFactory = new MutationClientFactory(config, testRun, MatrixE);
 		final IMutationClient client = clientFactory.createClient();

@@ -76,6 +76,11 @@ public class MatrixExecution implements IMatrix {
 			return matrixSuccess.get(mutant).get(test);
 		}
 		
+		public void test() {
+
+			System.out.println( "ttttttttttttttttttt");
+		}
+		
 		public void addResult(String mutant, String test, boolean success) {
 			boolean mutantAlreadyExist = true;
 			//boolean testAlreadyExist = true;
@@ -100,7 +105,7 @@ public class MatrixExecution implements IMatrix {
 				matrixSuccess.add(indexOfMutant, temp);
 			}
 			nbr++;
-			System.out.println("biiiiiiiiip !	" + nbr);
+			System.out.println("add nbr : " + nbr + "\t mutant : " + mutant + "\t test : " + test + "\t success : " + success);
 
 		}
 		
