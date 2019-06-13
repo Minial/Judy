@@ -21,6 +21,7 @@ public class MutationClientFactory implements IMutationClientFactory {
 	private int threadsCount;
 	private Observer workProgressObserver;
 	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	/**
 	 * Creates mutation client factory with passed with Judy configuration
@@ -28,7 +29,7 @@ public class MutationClientFactory implements IMutationClientFactory {
 	 * @param config  Judy configuration
 	 * @param testRun initial JUnit test run results
 	 */
-	public MutationClientFactory(IClientConfig config, IInitialTestsRun testRun, MatrixExecution MatrixE) {
+	public MutationClientFactory(IClientConfig config, IInitialTestsRun testRun, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		this.testRun = testRun;
 		operatorDescriptions = config.getOperatorsFactory().getDescriptions();
 		useCluster = config.useCluster();
@@ -38,24 +39,25 @@ public class MutationClientFactory implements IMutationClientFactory {
 		threadsCount = config.getThreadsCount();
 		workProgressObserver = config.getResultFormatter().getWorkObserver();
 		this.MatrixE = MatrixE;// add matrix
+		this.MatrixC = MatrixC;// add matrix
 	}
 
 	@Override
 	public IMutationClient createClient() {
 		if (testRun.getPassingResults().isEmpty()) {
-			return new EmptyMutationClient(testRun, operatorDescriptions, MatrixE);
+			return new EmptyMutationClient(testRun, operatorDescriptions, MatrixE, MatrixC);
 		}
 		return useCluster ? createDistributedClient() : createLocalClient();
 	}
 
 	private LocalMutationClient createLocalClient() {
 		return new LocalMutationClient(testRun, targetClasses, operatorDescriptions, workFactory, workProgressObserver,
-				workspace, threadsCount, MatrixE);
+				workspace, threadsCount, MatrixE, MatrixC);
 	}
 
 	private DistributedMutationClient createDistributedClient() {
 		return new DistributedMutationClient(testRun, targetClasses, operatorDescriptions, workFactory,
-				workProgressObserver, MatrixE);
+				workProgressObserver, MatrixE, MatrixC);
 	}
 
 	/**

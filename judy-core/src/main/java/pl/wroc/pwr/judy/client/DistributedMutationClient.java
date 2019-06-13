@@ -27,8 +27,8 @@ public class DistributedMutationClient extends MutationClient {
 	 * @param workFactory   mutation work factory
 	 */
 	public DistributedMutationClient(IInitialTestsRun testRun, List<String> targetClasses,
-									 List<IDescriptable> operators, IMutationWorkFactory workFactory, Observer workProgressObserver, MatrixExecution MatrixE) {
-		super(testRun, targetClasses, operators, workFactory, workProgressObserver, MatrixE);
+									 List<IDescriptable> operators, IMutationWorkFactory workFactory, Observer workProgressObserver, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
+		super(testRun, targetClasses, operators, workFactory, workProgressObserver, MatrixE, MatrixC);
 	}
 
 	@Override

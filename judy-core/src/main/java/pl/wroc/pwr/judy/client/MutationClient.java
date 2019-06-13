@@ -32,6 +32,7 @@ public abstract class MutationClient implements IMutationClient {
 	private IMutationWorkFactory workFactory;
 	private Observer workProgressObserver;
 	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	/**
 	 * <code>MutationClient</code> constructor.
@@ -43,13 +44,14 @@ public abstract class MutationClient implements IMutationClient {
 	 * @param workFactory   factory for mutation works
 	 */
 	public MutationClient(IInitialTestsRun testRun, List<String> targetClasses, List<IDescriptable> operators,
-						  IMutationWorkFactory workFactory, Observer workProgressObserver, MatrixExecution MatrixE) {
+						  IMutationWorkFactory workFactory, Observer workProgressObserver, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		this.testRun = testRun;
 		this.targetClasses = targetClasses;
 		this.operators = operators;
 		this.workFactory = workFactory;
 		this.workProgressObserver = workProgressObserver;
 		this.MatrixE = MatrixE;
+		this.MatrixC=MatrixC;
 	}
 
 	protected IMutationResult createMutationResult(IQueueClient client) throws WorkException, InterruptedException,
@@ -75,7 +77,7 @@ public abstract class MutationClient implements IMutationClient {
 		for (String targetClassName : targetClasses) {
 			float estimatedEffort = estimator.estimate(targetClassName);
 			TargetClass tc = createTargetClass(targetClassName, estimatedEffort);
-			client.schedule(createMutationWork(client.getId(), factory, tc, MatrixE));
+			client.schedule(createMutationWork(client.getId(), factory, tc, MatrixE, MatrixC));
 			//System.out.println("hey !");
 		}
 		List<IClassMutationResult> temp = createMutationResults(client.getResults());
@@ -95,8 +97,8 @@ public abstract class MutationClient implements IMutationClient {
 		return list;
 	}
 
-	private IWork createMutationWork(long id, IEnvironmentFactory envFactory, TargetClass targetClass, MatrixExecution MatrixE) {
-		return workFactory.create(id, targetClass, envFactory, MatrixE);
+	private IWork createMutationWork(long id, IEnvironmentFactory envFactory, TargetClass targetClass, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
+		return workFactory.create(id, targetClass, envFactory, MatrixE, MatrixC);
 	}
 
 	protected IMutationResult createResult(Timer timer, IInitialTestsRun tests, List<IClassMutationResult> results) {

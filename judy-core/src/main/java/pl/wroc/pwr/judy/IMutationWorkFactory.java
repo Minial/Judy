@@ -20,5 +20,5 @@ public interface IMutationWorkFactory {
 	 * @param MatrixE	  Execution Matrix
 	 * @return mutation work
 	 */
-	IWork create(long id, ITargetClass targetClass, IEnvironmentFactory envFactory, MatrixExecution MatrixE);
+	IWork create(long id, ITargetClass targetClass, IEnvironmentFactory envFactory, MatrixExecution MatrixE, MatrixCoverage MatrixC);
 }

@@ -41,9 +41,9 @@ public class NotEquivalentHomMutationWork extends HomMutationWork {
     public NotEquivalentHomMutationWork(long clientId, int retries, MutationResultFormatter resultFormatter,
                                    ITargetClass targetClass, List<String> classpath, ITesterFactory testerFactory,
                                    IEnvironmentFactory envFactory, IMutationOperatorsFactory operatorsFactory, long infiniteLoopBreakTime,
-                                   HomConfig config, IMutantFilter filter, MatrixExecution MatrixE) {
+                                   HomConfig config, IMutantFilter filter, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
         super(clientId, retries, resultFormatter, targetClass, classpath, testerFactory, envFactory, operatorsFactory,
-                infiniteLoopBreakTime, config, filter, MatrixE);
+                infiniteLoopBreakTime, config, filter, MatrixE, MatrixC);
     }
 
     private FomFactory createFomFactory(final byte[] bytecode) {

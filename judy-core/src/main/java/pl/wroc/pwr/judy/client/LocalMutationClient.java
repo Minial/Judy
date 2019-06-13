@@ -37,8 +37,8 @@ public class LocalMutationClient extends MutationClient {
 	 * @param threadCount   limit of threads
 	 */
 	public LocalMutationClient(IInitialTestsRun testRun, List<String> targetClasses, List<IDescriptable> operators,
-							   IMutationWorkFactory workFactory, Observer workProgressObserver, String workspace, int threadCount, MatrixExecution MatrixE) {
-		super(testRun, targetClasses, operators, workFactory, workProgressObserver, MatrixE);
+							   IMutationWorkFactory workFactory, Observer workProgressObserver, String workspace, int threadCount, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
+		super(testRun, targetClasses, operators, workFactory, workProgressObserver, MatrixE, MatrixC);
 		this.workspace = workspace;
 		this.threadCount = threadCount;
 	}

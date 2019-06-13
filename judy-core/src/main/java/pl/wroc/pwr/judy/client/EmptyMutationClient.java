@@ -24,8 +24,8 @@ public class EmptyMutationClient extends MutationClient {
 	 * @param testRun   initial tests run results
 	 * @param operators mutation operators descriptions
 	 */
-	public EmptyMutationClient(IInitialTestsRun testRun, List<IDescriptable> operators, MatrixExecution MatrixE) {
-		super(testRun, null, operators, null, null, MatrixE);
+	public EmptyMutationClient(IInitialTestsRun testRun, List<IDescriptable> operators, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
+		super(testRun, null, operators, null, null, MatrixE, MatrixC);
 	}
 
 	@Override

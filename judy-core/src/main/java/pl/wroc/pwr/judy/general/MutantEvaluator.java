@@ -154,7 +154,7 @@ public class MutantEvaluator implements IMutantEvaluator {
 			//System.out.println( "waaaaaaaaaaaaaaaaaaaaaaaaasp !");
 			Set<String> coveringTestMethods = targetClass.getCoveringMethods(testDuration.getTestClassName(),
 					mutant.getLinesNumbers());
-			wasKilled = isTestClassKillingMutant(testDuration, coveringTestMethods, mutant, MatrixE_) || wasKilled;
+			wasKilled = isTestClassKillingMutant(testDuration, coveringTestMethods, mutant, MatrixE) || wasKilled;
 		}
 		mutant.getResults().trimToSize();
 

@@ -39,6 +39,7 @@ public class MutationWork extends AbstractWork {
 	private transient ClassKind kind;
 	private String workspace;
 	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	private transient IDurationStatistic statistic;
 
@@ -62,7 +63,7 @@ public class MutationWork extends AbstractWork {
 	 */
 	public MutationWork(long clientId, int retries, MutationResultFormatter resultFormatter, ITargetClass targetClass,
 						List<String> classpath, ITesterFactory testerFactory, IEnvironmentFactory envFactory,
-						IMutationOperatorsFactory operatorsFactory, long maxInfiniteLoopGuardTimeout, MatrixExecution MatrixE) {
+						IMutationOperatorsFactory operatorsFactory, long maxInfiniteLoopGuardTimeout, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		super(clientId, retries);
 		setResultFormatter(resultFormatter);
 		this.targetClass = targetClass;
@@ -73,6 +74,7 @@ public class MutationWork extends AbstractWork {
 		kind = ClassKind.UNKNOWN;
 		this.maxInfiniteLoopGuardTimeout = maxInfiniteLoopGuardTimeout;
 		this.MatrixE=MatrixE;
+		this.MatrixC=MatrixC;
 	}
 
 	@Override

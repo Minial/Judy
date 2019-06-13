@@ -29,7 +29,8 @@ public abstract class HomMutationWork extends MutationWork {
 	private boolean skipSameLineMutations;
 	private int maxMutationOrder;
 	private IMutantFilter filter;
-	public MatrixExecution MatrixE;
+	//public MatrixExecution MatrixE;
+	//public MatrixCoverage MatrixC;
 
 	/**
 	 * Creates mutation work creating and evaluating high order mutants
@@ -48,9 +49,9 @@ public abstract class HomMutationWork extends MutationWork {
 	public HomMutationWork(long clientId, int retries, MutationResultFormatter resultFormatter,
 						   ITargetClass targetClass, List<String> classpath, ITesterFactory testerFactory,
 						   IEnvironmentFactory envFactory, IMutationOperatorsFactory operatorsFactory,
-						   long maxInfiniteLoopGuardTimeout, HomConfig config, IMutantFilter filter, MatrixExecution MatrixE) {
+						   long maxInfiniteLoopGuardTimeout, HomConfig config, IMutantFilter filter, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		super(clientId, retries, resultFormatter, targetClass, classpath, testerFactory, envFactory, operatorsFactory,
-				maxInfiniteLoopGuardTimeout, MatrixE);
+				maxInfiniteLoopGuardTimeout, MatrixE, MatrixC);
 		maxEvaluations = config.getMaxEvaluations();
 		objectives = config.getObjectivesFactory().createObjectives();
 		skipSameLineMutations = config.isSkippingSameLineMutations();

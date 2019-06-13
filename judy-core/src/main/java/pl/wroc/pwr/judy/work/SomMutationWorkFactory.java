@@ -23,6 +23,7 @@ public class SomMutationWorkFactory implements IMutationWorkFactory {
 	private MutationResultFormatter resultFormatter;
 	private ISomGeneratorFactory somGeneratorFactory;
 	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	/**
 	 * MutationWorkFactory constructor.
@@ -37,7 +38,7 @@ public class SomMutationWorkFactory implements IMutationWorkFactory {
 	public SomMutationWorkFactory(final int retries, MutationResultFormatter resultFormatter,
 								  final List<String> classpath, final ITesterFactory testerFactory,
 								  final IMutationOperatorsFactory operatorsFactory, long infiniteLoopBreakTime,
-								  ISomGeneratorFactory somGeneratorFactory, MatrixExecution MatrixE) {
+								  ISomGeneratorFactory somGeneratorFactory, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		this.retries = retries;
 		this.resultFormatter = resultFormatter;
 		this.classpath = classpath;
@@ -46,12 +47,13 @@ public class SomMutationWorkFactory implements IMutationWorkFactory {
 		this.somGeneratorFactory = somGeneratorFactory;
 		this.infiniteLoopBreakTime = infiniteLoopBreakTime;
 		this.MatrixE = MatrixE;// add matrix
+		this.MatrixC = MatrixC;
 	}
 
 	@Override
-	public IWork create(long id, ITargetClass targetClass, IEnvironmentFactory envFactory, MatrixExecution MatrixE_) {
+	public IWork create(long id, ITargetClass targetClass, IEnvironmentFactory envFactory, MatrixExecution MatrixE_, MatrixCoverage MatrixC_) {
 		return new SomMutationWork(id, retries, resultFormatter, targetClass, classpath, testerFactory, envFactory,
-				operatorsFactory, infiniteLoopBreakTime, somGeneratorFactory.createGenerator(), somGeneratorFactory.getName(), MatrixE_);//ajouter matrice ici ?
+				operatorsFactory, infiniteLoopBreakTime, somGeneratorFactory.createGenerator(), somGeneratorFactory.getName(), MatrixE_, MatrixC_);//ajouter matrice ici ?
 	}
 
 }

@@ -63,8 +63,9 @@ public class Judy extends AbstractExec {
 		targetClassesSorter.sortTargetClasses(config, testRun);
 		
 		MatrixE = new MatrixExecution();
+		MatrixC = new MatrixCoverage();
 
-		final IMutationClientFactory clientFactory = new MutationClientFactory(config, testRun, MatrixE);
+		final IMutationClientFactory clientFactory = new MutationClientFactory(config, testRun, MatrixE, MatrixC);
 		final IMutationClient client = clientFactory.createClient();
 
 		final IMutationResult results = computeMutationResults(config, client);
@@ -98,7 +99,7 @@ public class Judy extends AbstractExec {
 
 	private JudyConfig parseUserInput(final String[] args) throws ConfigException {
 		LOGGER.info("Parsing input...");
-		final JudyConfig config = new JudyConfig(args, MatrixE);
+		final JudyConfig config = new JudyConfig(args, MatrixE, MatrixC);
 		LOGGER.info("Parsing input... Done");
 		return config;
 	}

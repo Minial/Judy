@@ -25,6 +25,7 @@ public class SomMutationWork extends MutationWork {
     private final SomFactory somFactory;
     private String algorithm;
     public MatrixExecution MatrixE;
+    public MatrixCoverage MatrixC;
 
     /**
      * Creates mutation work creating and evaluating second order mutants
@@ -42,9 +43,9 @@ public class SomMutationWork extends MutationWork {
     public SomMutationWork(final long clientId, final int retries, final MutationResultFormatter resultFormatter,
                            final ITargetClass targetClass, final List<String> classpath, final ITesterFactory testerFactory,
                            final IEnvironmentFactory envFactory, final IMutationOperatorsFactory operatorsFactory,
-                           final long maxInfiniteLoopGuardTimeout, final SomFactory somFactory, final String algorithm, MatrixExecution MatrixE) {
+                           final long maxInfiniteLoopGuardTimeout, final SomFactory somFactory, final String algorithm, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
         super(clientId, retries, resultFormatter, targetClass, classpath, testerFactory, envFactory, operatorsFactory,
-                maxInfiniteLoopGuardTimeout, MatrixE);
+                maxInfiniteLoopGuardTimeout, MatrixE, MatrixC);
         this.algorithm = algorithm;
         this.somFactory = somFactory;
     }

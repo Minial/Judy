@@ -23,6 +23,7 @@ public class HomMutationWorkFactory implements IMutationWorkFactory {
 	private final IMutationOperatorsFactory operatorsFactory;
 	private final long infiniteLoopBreakTime;
 	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	private MutationResultFormatter resultFormatter;
 
@@ -40,7 +41,7 @@ public class HomMutationWorkFactory implements IMutationWorkFactory {
 	 */
 	public HomMutationWorkFactory(final int retries, MutationResultFormatter resultFormatter,
 								  final List<String> classpath, final ITesterFactory testerFactory,
-								  IMutationOperatorsFactory operatorsFactory, long infiniteLoopBreakTime, HomConfig config, MatrixExecution MatrixE) {
+								  IMutationOperatorsFactory operatorsFactory, long infiniteLoopBreakTime, HomConfig config, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		this.retries = retries;
 		this.resultFormatter = resultFormatter;
 		this.classpath = classpath;
@@ -49,10 +50,11 @@ public class HomMutationWorkFactory implements IMutationWorkFactory {
 		this.config = config;
 		this.infiniteLoopBreakTime = infiniteLoopBreakTime;
 		this.MatrixE = MatrixE;// add matrix
+		this.MatrixC=MatrixC;
 	}
 
 	@Override
-	public IWork create(long id, ITargetClass targetClass, IEnvironmentFactory envFactory, MatrixExecution MatrixE_) {
+	public IWork create(long id, ITargetClass targetClass, IEnvironmentFactory envFactory, MatrixExecution MatrixE_, MatrixCoverage MatrixC) {
 		if (HomStrategy.UP_FRONT.equals(config.getStrategy())) {
 			return createUpFrontHomMutationWork(id, targetClass, envFactory);
 		} else {
@@ -69,7 +71,7 @@ public class HomMutationWorkFactory implements IMutationWorkFactory {
 		IMutantFilter mutantFilter = config.shouldSkipTrivialMutantFilter() ? new DummyFilter()
 				: new TrivialMutantFilter();
 		return new OnTheFlyHomMutationWork(id, retries, resultFormatter, targetClass, classpath, testerFactory,
-				envFactory, operatorsFactory, infiniteLoopBreakTime, config, mutantFilter, MatrixE);
+				envFactory, operatorsFactory, infiniteLoopBreakTime, config, mutantFilter, MatrixE, MatrixC);
 	}
 
 	private IWork createUpFrontHomMutationWork(final long id, final ITargetClass targetClass,
@@ -77,13 +79,13 @@ public class HomMutationWorkFactory implements IMutationWorkFactory {
 		IMutantFilter mutantFilter = config.shouldSkipTrivialMutantFilter() ? new DummyFilter()
 				: new TrivialMutantFilter();
 		return new UpFrontHomMutationWork(id, retries, resultFormatter, targetClass, classpath, testerFactory,
-				envFactory, operatorsFactory, infiniteLoopBreakTime, config, mutantFilter, MatrixE);
+				envFactory, operatorsFactory, infiniteLoopBreakTime, config, mutantFilter, MatrixE, MatrixC);
 	}
 	private IWork createNotEquivalentHomMutationWork(final long id, final ITargetClass targetClass,
 											   final IEnvironmentFactory envFactory) {
 		IMutantFilter mutantFilter = config.shouldSkipTrivialMutantFilter() ? new DummyFilter()
 				: new TrivialMutantFilter();
 		return new NotEquivalentHomMutationWork(id, retries, resultFormatter, targetClass, classpath, testerFactory,
-				envFactory, operatorsFactory, infiniteLoopBreakTime, config, mutantFilter, MatrixE);
+				envFactory, operatorsFactory, infiniteLoopBreakTime, config, mutantFilter, MatrixE, MatrixC);
 	}
 }

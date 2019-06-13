@@ -24,6 +24,7 @@ public class MutationWorkFactory implements IMutationWorkFactory {
 	private final long infiniteLoopBreakTime;
 	private MutationResultFormatter resultFormatter;
 	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	/**
 	 * MutationWorkFactory constructor.
@@ -36,7 +37,7 @@ public class MutationWorkFactory implements IMutationWorkFactory {
 	 */
 	public MutationWorkFactory(final int retries, MutationResultFormatter resultFormatter,
 							   final List<String> classpath, final ITesterFactory testerFactory,
-							   final IMutationOperatorsFactory operatorsFactory, long infiniteLoopBreakTime, MatrixExecution MatrixE) {
+							   final IMutationOperatorsFactory operatorsFactory, long infiniteLoopBreakTime, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		this.retries = retries;
 		this.resultFormatter = resultFormatter;
 		this.classpath = classpath;
@@ -44,16 +45,17 @@ public class MutationWorkFactory implements IMutationWorkFactory {
 		this.operatorsFactory = operatorsFactory;
 		this.infiniteLoopBreakTime = infiniteLoopBreakTime;
 		this.MatrixE = MatrixE;
+		this.MatrixC=MatrixC;
 	}
 
 	@Override
-	public IWork create(final long id, final ITargetClass targetClass, final IEnvironmentFactory envFactory, MatrixExecution MatrixE) {
+	public IWork create(final long id, final ITargetClass targetClass, final IEnvironmentFactory envFactory, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		return createFomMutationWork(id, targetClass, envFactory);
 	}
 
 	private IWork createFomMutationWork(final long id, final ITargetClass targetClass,
 										final IEnvironmentFactory envFactory) {
 		return new MutationWork(id, retries, resultFormatter, targetClass, classpath, testerFactory, envFactory,
-				operatorsFactory, infiniteLoopBreakTime, MatrixE);
+				operatorsFactory, infiniteLoopBreakTime, MatrixE, MatrixC);
 	}
 }

@@ -52,7 +52,8 @@ public class JudyConfig implements IClientConfig {
 	private final boolean useSom;
 	private final ISomGeneratorFactory somAlgorithmFactory;
 	private final boolean useCluster;
-	private MatrixExecution MatrixE;
+	public MatrixExecution MatrixE;
+	public MatrixCoverage MatrixC;
 
 	private final boolean useHom;
 
@@ -73,7 +74,7 @@ public class JudyConfig implements IClientConfig {
 	 * @param args application arguments
 	 * @throws ConfigException on config exception and in case of missing directory
 	 */
-	public JudyConfig(final String[] args, MatrixExecution MatrixE) throws ConfigException {
+	public JudyConfig(final String[] args, MatrixExecution MatrixE, MatrixCoverage MatrixC) throws ConfigException {
 		final JudyArgsParser parser = new JudyArgsParser(args);
 		useCluster = parser.getUseCluster();
 		useSom = parser.getUseSom();
@@ -100,6 +101,7 @@ public class JudyConfig implements IClientConfig {
 		resultFormatter = parser.getResultFormatter();
 
 		this.MatrixE = MatrixE;
+		this.MatrixC=MatrixC;
 		testerFactory = createTesterFactory(parser, MatrixE);
 
 		initialTestRunner = setupInitialTestRunner();
@@ -139,13 +141,13 @@ public class JudyConfig implements IClientConfig {
 	private IMutationWorkFactory setupWorkFactory() {
 		if (useHom) {
 			return new HomMutationWorkFactory(maxWorkRetries, getResultFormatter(), classpath, testerFactory,
-					operatorsFactory, maxInfiniteLoopGuardTimeout, homConfig, MatrixE);
+					operatorsFactory, maxInfiniteLoopGuardTimeout, homConfig, MatrixE, MatrixC);
 		} else if (useSom) {
 			return new SomMutationWorkFactory(maxWorkRetries, getResultFormatter(), classpath, testerFactory,
-					operatorsFactory, maxInfiniteLoopGuardTimeout, somAlgorithmFactory, MatrixE);
+					operatorsFactory, maxInfiniteLoopGuardTimeout, somAlgorithmFactory, MatrixE, MatrixC);
 		} else {
 			return new MutationWorkFactory(maxWorkRetries, getResultFormatter(), classpath, testerFactory,
-					operatorsFactory, maxInfiniteLoopGuardTimeout, MatrixE);
+					operatorsFactory, maxInfiniteLoopGuardTimeout, MatrixE, MatrixC);
 		}
 	}
 
