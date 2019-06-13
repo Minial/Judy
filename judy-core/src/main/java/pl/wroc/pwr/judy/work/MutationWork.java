@@ -89,7 +89,7 @@ public class MutationWork extends AbstractWork {
 			LOGGER.debug(String.format("Mutants generation for %s finished (%d created)", targetClass.getName(),
 					mutants.size()));
 
-			evaluator.evaluate(mutants, true, MatrixE);
+			evaluator.evaluate(mutants, true, MatrixE, MatrixC);
 		} else {
 			LOGGER.debug("Mutation not applicable to class: " + targetClass);
 		}

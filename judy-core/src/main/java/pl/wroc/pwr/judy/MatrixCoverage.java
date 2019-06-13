@@ -7,6 +7,7 @@ public class MatrixCoverage implements IMatrix {
 	private ArrayList<String> nameMutants;//name of each mutant
 	private ArrayList<ArrayList<Boolean>> matrixSuccess; //list of coverage between mutants and tests ( [IndexMutant][IndexTest] )
 	//index of nameMutants and nameTests are equivalent to index of matrixSuccess
+	public static int nbr=0;
 	
 	public MatrixCoverage() {
 		nameTests = new ArrayList<String>();
@@ -98,6 +99,8 @@ public class MatrixCoverage implements IMatrix {
 			temp.add(indexOfTest, success);
 			matrixSuccess.add(indexOfMutant, temp);
 		}
+		nbr++;
+		//System.out.println("cover nbr : " + nbr + "\t mutant : " + mutant + "\t test : " + test + "\t success : " + success);
 	}
 	
 	

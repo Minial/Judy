@@ -59,7 +59,7 @@ public class SomMutationWork extends MutationWork {
                 || algorithm.equals(SomStrategy.LAST_TO_FIRST_ABC.getParam())
                 || algorithm.equals(SomStrategy.LAST_TO_FIRST_SORTED_ABC.getParam())) {
             LOGGER.debug("Generating FOMs first...");
-            this.getEvaluator().evaluate(foms, false, MatrixE);
+            this.getEvaluator().evaluate(foms, false, MatrixE, MatrixC);
             this.initReset();
         }
         LOGGER.debug("Generating SOMs...");

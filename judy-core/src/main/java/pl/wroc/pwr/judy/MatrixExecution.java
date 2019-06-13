@@ -105,7 +105,7 @@ public class MatrixExecution implements IMatrix {
 				matrixSuccess.add(indexOfMutant, temp);
 			}
 			nbr++;
-			System.out.println("add nbr : " + nbr + "\t mutant : " + mutant + "\t test : " + test + "\t success : " + success);
+			//System.out.println("add nbr : " + nbr + "\t mutant : " + mutant + "\t test : " + test + "\t success : " + success);
 
 		}
 		

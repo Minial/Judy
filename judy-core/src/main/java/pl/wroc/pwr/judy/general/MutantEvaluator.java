@@ -50,12 +50,12 @@ public class MutantEvaluator implements IMutantEvaluator {
 	}
 
 	@Override
-	public void evaluate(List<IMutant> mutants, boolean include, MatrixExecution MatrixE) {
+	public void evaluate(List<IMutant> mutants, boolean include, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		//System.out.println( "bug :)                  yeah !");
 		List<TestDuration> tests = targetClass.getSortedTests();
 		for (IMutant mutant : mutants) {
 			if (!aliveMutants.contains(mutant) && !killedMutants.contains(mutant)) {
-				boolean killed = areTestsKillingMutant(getCoveringTestClasses(tests, mutant), mutant, MatrixE);
+				boolean killed = areTestsKillingMutant(getCoveringTestClasses(tests, mutant, MatrixC), mutant, MatrixE);
 				if (include) {
 					saveMutant(mutant, killed);
 				}
@@ -81,6 +81,17 @@ public class MutantEvaluator implements IMutantEvaluator {
 		}
 	}
 
+	private List<TestDuration> getCoveringTestClasses(List<TestDuration> tests, IMutant mutant, MatrixCoverage MatrixC) {
+		List<TestDuration> coveringTestClasses = new ArrayList<>();
+		for (TestDuration testDuration : tests) {
+			MatrixC.addResult("" + mutant.getId(), testDuration.getTestClassName(), targetClass.getCoveringMethods(testDuration.getTestClassName(), mutant.getLinesNumbers()).isEmpty());
+			if (!targetClass.getCoveringMethods(testDuration.getTestClassName(), mutant.getLinesNumbers()).isEmpty()) {
+				coveringTestClasses.add(testDuration);
+			}
+		}
+		return coveringTestClasses;
+	}
+	
 	private List<TestDuration> getCoveringTestClasses(List<TestDuration> tests, IMutant mutant) {
 		List<TestDuration> coveringTestClasses = new ArrayList<>();
 		for (TestDuration testDuration : tests) {

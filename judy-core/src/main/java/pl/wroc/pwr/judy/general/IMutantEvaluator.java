@@ -15,7 +15,7 @@ public interface IMutantEvaluator {
 	 * @param include whether to save alive/killed mutants
 	 * @param MatrixExecution
 	 */
-	void evaluate(List<IMutant> mutants, boolean include, MatrixExecution MatrixE);
+	void evaluate(List<IMutant> mutants, boolean include, MatrixExecution MatrixE, MatrixCoverage MatrixC);
 	
 	/**
 	 * Evaluates collection of mutants - checks whether they are killed by tests
