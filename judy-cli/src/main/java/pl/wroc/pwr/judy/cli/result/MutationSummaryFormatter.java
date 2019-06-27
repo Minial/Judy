@@ -2,6 +2,8 @@ package pl.wroc.pwr.judy.cli.result;
 
 import pl.wroc.pwr.judy.IInitialTestsRun;
 import pl.wroc.pwr.judy.IMutationResult;
+import pl.wroc.pwr.judy.MatrixCoverage;
+import pl.wroc.pwr.judy.MatrixExecution;
 
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -24,7 +26,7 @@ public class MutationSummaryFormatter implements IMutationSummaryFormatter {
 	}
 
 	@Override
-	public String getSummary(IMutationResult results, IInitialTestsRun testRun) {
+	public String getSummary(IMutationResult results, IInitialTestsRun testRun, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
 		String summary = "";
 		if (results != null && results.getResults() != null) {
 			StringBuilder sb = new StringBuilder(INITIAL_SB_CAPACITY);
@@ -33,6 +35,7 @@ public class MutationSummaryFormatter implements IMutationSummaryFormatter {
 			summarizeDuration(sb, results.getDuration(), testRun.getDuration());
 			summarizeParallel(sb, results.getMutantGenerationDuration(), results.getTestsDuration());
 			summarizeTestCount(sb, testRun.getTestsCount(), results.getTestsCount());
+			summarizeQuality(sb, MatrixE, MatrixC);
 
 			summary = sb.toString();
 		}
@@ -97,6 +100,28 @@ public class MutationSummaryFormatter implements IMutationSummaryFormatter {
 		return allMutants == 0 ? 0f : killedMutants * HUNDRED_PERCENT / allMutants;
 	}
 
+	private void summarizeQuality(StringBuilder sb, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
+		int Nt = MatrixE.sizeOfMutantsNotEquivalents();
+		int T = MatrixE.sizeOfTests();
+		int M = MatrixE.sizeOfMutants();
+		int Qm = 0;
+		for(int i = 0 ; i<M;i++) {
+			int SumOfCt=0;
+			for(int j = 0 ; j<MatrixE.ListOfTestsForAMutant(i);j++) {
+				if (MatrixE.checkTrigger(i,j)==true) {
+					for(int k = 0 ; k<M ; k++) {
+						if(MatrixE.checkTrigger(k,j)==true) {
+							SumOfCt++;
+						}
+					}
+				}
+			}
+			Qm = Qm+(1-SumOfCt/(Nt*T));
+		}
+		newLine(sb, "Quality					   : " + Qm);
+	}
+	
+	
 	/**
 	 * Append source classes (target classes) summary
 	 *

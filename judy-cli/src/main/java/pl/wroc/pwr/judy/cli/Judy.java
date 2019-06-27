@@ -72,7 +72,7 @@ public class Judy extends AbstractExec {
 
 		terminateExecutor(config);
 
-		printResults(config, results, testRun);
+		printResults(config, results, testRun, MatrixE, MatrixC);
 		saveResult(config, results);
 
 		System.exit(0);
@@ -111,8 +111,8 @@ public class Judy extends AbstractExec {
 		return testRun;
 	}
 
-	private void printResults(final IClientConfig config, final IMutationResult results, final IInitialTestsRun testRun) {
-		for (final String line : new MutationSummaryFormatter().getSummary(results, testRun).split("\n")) {
+	private void printResults(final IClientConfig config, final IMutationResult results, final IInitialTestsRun testRun, MatrixExecution MatrixE, MatrixCoverage MatrixC) {
+		for (final String line : new MutationSummaryFormatter().getSummary(results, testRun, MatrixE, MatrixC).split("\n")) {
 			System.out.println(line);																						//AJOUT
 			LOGGER.info(line);
 		}

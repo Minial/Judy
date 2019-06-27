@@ -16,6 +16,31 @@ public class MatrixCoverage implements IMatrix {
 		
 	}
 	
+	public int SizeOfTests() {
+		return nameTests.size();
+	}
+	
+	public int SizeOfMutants() {
+		return nameMutants.size();
+	}	
+	
+	@Override
+	public int sizeOfMutantsNotEquivalents() {
+		int temp = 0;
+		for (int i = 0; i<matrixSuccess.size();i++) {
+			boolean equivalent = true;
+			for (int j = 0; j<matrixSuccess.get(i).size();j++) {
+				if(matrixSuccess.get(i).get(j)==true) {
+					equivalent=false;
+				}
+			}
+			if(equivalent==false) {
+				temp++;
+			}
+		}
+		return temp;
+	}
+	
 	/*list of tests
 	 * 
 	 * input void
@@ -38,6 +63,35 @@ public class MatrixCoverage implements IMatrix {
 		return matrixSuccess.get(mutant);
 	}
 	
+
+	public int ListOfTestsForAMutant(int mutant) {
+		return matrixSuccess.get(mutant).size();
+	}
+	
+	
+	/*list of test for a mutant
+	 * 
+	 * input string , id of mutant
+	 * 
+	 * return List<boolean>
+	 */
+	@Override
+	public ArrayList<Boolean> listOfTestsForAMutantById(String mutant){
+		int ind =  matrixSuccess.indexOf(mutant);
+		return listOfTestsForAMutant(ind);
+	}
+	
+	/*list of test for a mutant
+	 * 
+	 * input int , int of mutant
+	 * 
+	 * return int
+	 */
+	@Override
+	public int SizeOfTestsForAMutant(int mutant) {
+		return nameMutants.size();
+	}
+	
 	/* list of mutants
 	 * 
 	 * input void
@@ -56,10 +110,34 @@ public class MatrixCoverage implements IMatrix {
 	 * return List<boolean>
 	 */
 	@Override
-	public ArrayList<Boolean> listOfMutantsForATest(int test) {
+	public ArrayList<Boolean> listOfMutantsForATestByName(String test) {
 		ArrayList<Boolean> temp = new ArrayList<Boolean>();
+		for (int i = 0; i<matrixSuccess.size();i++) {
+			if(matrixSuccess.get(i).indexOf(test)!=-1) {
+				Boolean testtt = matrixSuccess.get(i).get(matrixSuccess.get(i).indexOf(test));
+				temp.add(testtt);
+			}
+		}
+		/*
 		for (int i =0; i<matrixSuccess.size();i++) {
 			temp.add(matrixSuccess.get(i).get(test));
+		}*/
+		return temp;
+	}
+	
+	/*list of mutant for a test
+	 * 
+	 * input int , int of test
+	 * 
+	 * return List<boolean>
+	 */
+	@Override
+	public int SizeOfMutantsForATest(int test) {
+		int temp = 0;
+		for (int i = 0; i<matrixSuccess.size();i++) {
+			if(matrixSuccess.get(i).indexOf(test)!=-1) {
+				temp++;
+			}
 		}
 		return temp;
 	}
@@ -73,7 +151,11 @@ public class MatrixCoverage implements IMatrix {
 	@Override
 	public boolean checkTrigger(int mutant, int test) {
 		return matrixSuccess.get(mutant).get(test);
-		
+	}
+	
+	public void test() {
+
+		System.out.println( "ttttttttttttttttttt");
 	}
 	
 	public void addResult(String mutant, String test, boolean success) {

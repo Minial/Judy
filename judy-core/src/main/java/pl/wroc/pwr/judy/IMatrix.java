@@ -19,6 +19,11 @@ public interface IMatrix {
 	 */
 	ArrayList<String> listOfTests();
 	
+	/*number of mutant not equivalent
+	 * 
+	 */
+	int sizeOfMutantsNotEquivalents();
+	
 	/*list of test for a mutant
 	 * 
 	 * input int , int of mutant
@@ -26,6 +31,22 @@ public interface IMatrix {
 	 * return List<boolean>
 	 */
 	ArrayList<Boolean> listOfTestsForAMutant(int mutant);
+	
+	/*list of test for a mutant
+	 * 
+	 * input string , id of mutant
+	 * 
+	 * return List<boolean>
+	 */
+	ArrayList<Boolean> listOfTestsForAMutantById(String mutant);
+	
+	/*list of test for a mutant
+	 * 
+	 * input int , int of mutant
+	 * 
+	 * return int
+	 */
+	int SizeOfTestsForAMutant(int mutant);
 	
 	/* list of mutants
 	 * 
@@ -41,7 +62,15 @@ public interface IMatrix {
 	 * 
 	 * return List<boolean>
 	 */
-	ArrayList<Boolean> listOfMutantsForATest(int test);
+	ArrayList<Boolean> listOfMutantsForATestByName(String test);
+	
+	/*list of mutant for a test
+	 * 
+	 * input int , int of test
+	 * 
+	 * return List<boolean>
+	 */
+	int SizeOfMutantsForATest(int test);
 	
 	/* check if a mutants is Triggered by a test
 	 * 
