@@ -3,9 +3,9 @@ package pl.wroc.pwr.judy;
 import java.util.ArrayList;
 
 public class MatrixCoverage implements IMatrix {
-	private ArrayList<String> nameTests;//name of each test
-	private ArrayList<String> nameMutants;//name of each mutant
-	private ArrayList<ArrayList<Boolean>> matrixSuccess; //list of coverage between mutants and tests ( [IndexMutant][IndexTest] )
+	private static ArrayList<String> nameTests;//name of each test
+	private static ArrayList<String> nameMutants;//name of each mutant
+	private static ArrayList<ArrayList<Boolean>> matrixSuccess; //list of coverage between mutants and tests ( [IndexMutant][IndexTest] )
 	//index of nameMutants and nameTests are equivalent to index of matrixSuccess
 	public static int nbr=0;
 	

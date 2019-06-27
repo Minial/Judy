@@ -104,7 +104,7 @@ public class MutationSummaryFormatter implements IMutationSummaryFormatter {
 		int Nt = MatrixE.sizeOfMutantsNotEquivalents();
 		int T = MatrixE.sizeOfTests();
 		int M = MatrixE.sizeOfMutants();
-		int Qm = 0;
+		double Qm = 0.0;
 		for(int i = 0 ; i<M;i++) {
 			int SumOfCt=0;
 			for(int j = 0 ; j<MatrixE.ListOfTestsForAMutant(i);j++) {

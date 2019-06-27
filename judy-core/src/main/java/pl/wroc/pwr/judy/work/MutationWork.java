@@ -90,6 +90,7 @@ public class MutationWork extends AbstractWork {
 					mutants.size()));
 
 			evaluator.evaluate(mutants, true, MatrixE, MatrixC);
+			
 		} else {
 			LOGGER.debug("Mutation not applicable to class: " + targetClass);
 		}

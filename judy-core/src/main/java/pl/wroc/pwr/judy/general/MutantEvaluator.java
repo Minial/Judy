@@ -129,7 +129,7 @@ public class MutantEvaluator implements IMutantEvaluator {
 	}
 
 	private boolean areTestsKillingMutant(List<TestDuration> tests, IMutant mutant) {
-		System.out.println( "wasp ?");
+		//System.out.println( "wasp ?");
 		boolean wasKilled = false;
 
 		// mutant evaluation begins - set new classloader.
@@ -236,7 +236,7 @@ public class MutantEvaluator implements IMutantEvaluator {
 		String temp = "" + mutant.getId();
 		//System.out.println("mutant id " + temp + "\t test name : " + test.getTestClassName() + "\t test passed : " + testrunResult.passed());
 		MatrixE.addResult(temp, test.getTestClassName(), testrunResult.passed());
-		//MatrixE_.test();
+		//System.out.println(MatrixE.test());
 
 		return !testrunResult.passed();
 	}
