@@ -104,7 +104,7 @@ public class MutationSummaryFormatter implements IMutationSummaryFormatter {
 		int Nt = MatrixE.sizeOfMutantsNotEquivalents();
 		int T = MatrixE.sizeOfTests();
 		int M = MatrixE.sizeOfMutants();
-		double Qm = 0.0;
+		double Qm = 0.0;/*
 		for(int i = 0 ; i<M;i++) {
 			int SumOfCt=0;
 			for(int j = 0 ; j<MatrixE.ListOfTestsForAMutant(i);j++) {
@@ -112,13 +112,17 @@ public class MutationSummaryFormatter implements IMutationSummaryFormatter {
 					for(int k = 0 ; k<M ; k++) {
 						if(MatrixE.checkTrigger(k,j)==true) {
 							SumOfCt++;
+							System.out.println("Sum : " + SumOfCt);
 						}
 					}
 				}
 			}
 			Qm = Qm+(1-SumOfCt/(Nt*T));
-		}
-		newLine(sb, "Quality					   : " + Qm);
+		}*/
+		//MatrixE.printMatrix();
+		newLine(sb, "Taille mutant not equivalent " + Nt);
+		newLine(sb, "Taille test " + T);
+		newLine(sb, "Taille mutant " + M);
 	}
 	
 	

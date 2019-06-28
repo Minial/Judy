@@ -159,6 +159,16 @@ public class MatrixExecution implements IMatrix {
 			return nbr;
 		}
 		
+		public void printMatrix() {
+			for (int i = 0 ; i<matrixSuccess.size();i++) {
+				for(int j = 0 ; j<matrixSuccess.get(i).size();j++) {
+					System.out.print(" " + matrixSuccess.get(i).get(j));
+				}
+				System.out.print("\n");
+			}
+		}
+		
+		
 		public void addResult(String mutant, String test, boolean success) {
 			boolean mutantAlreadyExist = true;
 			//boolean testAlreadyExist = true;
@@ -167,12 +177,14 @@ public class MatrixExecution implements IMatrix {
 			indexOfMutant=nameMutants.indexOf(mutant);
 			if(indexOfMutant==-1) {//if the mutant doesn't exist
 				mutantAlreadyExist=false;
-				indexOfMutant = nameMutants.size();			
+				indexOfMutant = nameMutants.size();	
+				nameMutants.add(mutant);
 			}
 			indexOfTest=nameTests.indexOf(test);
 			if(indexOfTest==-1) {
 				//testAlreadyExist=false;
 				indexOfTest = nameTests.size();
+				nameTests.add(test);
 			}
 			if(mutantAlreadyExist) {
 				matrixSuccess.get(indexOfMutant).add(indexOfTest, success);	//beware of the out of range exceptions
